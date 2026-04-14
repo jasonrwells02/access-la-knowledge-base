@@ -1,0 +1,16 @@
+{
+  "name": "access-la-knowledge-base",
+  "version": "1.0.0",
+  "description": "Structured knowledge base for Access Services (LA County ADA paratransit) AI phone agent",
+  "type": "module",
+  "scripts": {
+    "export:jsonl": "node scripts/export-jsonl.js > exports/knowledge-base.jsonl",
+    "export:csv": "node scripts/export-csv.js > exports/faqs.csv",
+    "export:markdown": "node scripts/export-markdown.js > exports/knowledge-base.md",
+    "export:all": "npm run export:jsonl && npm run export:csv && npm run export:markdown",
+    "validate": "node scripts/validate.js"
+  },
+  "keywords": ["access-services", "paratransit", "ada", "knowledge-base", "ai-agent", "los-angeles"],
+  "author": "AI Dev Lab",
+  "license": "MIT"
+}

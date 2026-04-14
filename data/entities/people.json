@@ -1,0 +1,138 @@
+{
+  "board_of_directors": {
+    "name": "Board of Directors",
+    "meeting_schedule": "4th Monday of each month, 12:00 PM to 3:00 PM",
+    "meeting_format": "In-person and virtual (webinar)",
+    "meeting_location": "Access Services, 3449 Santa Anita Ave, 3rd Floor Council Room, El Monte, CA 91731",
+    "annual_meeting": "November meeting designated as annual meeting",
+    "meetings_per_year": 11,
+    "members": [
+      {
+        "name": "Doran J. Barnes",
+        "role": "Chair",
+        "representing": "City Selection Committee's Corridor Transportation Representatives"
+      },
+      {
+        "name": "Adrian Aguilar",
+        "role": "Treasurer",
+        "representing": "Los Angeles Municipal Operators"
+      },
+      {
+        "name": "Giovanna Gogreve",
+        "role": "Secretary",
+        "representing": "LA County Metropolitan Transportation Authority"
+      },
+      {
+        "name": "Lee Burner",
+        "role": "Member",
+        "representing": "Los Angeles Municipal Operators"
+      },
+      {
+        "name": "Martin Gombert",
+        "role": "Member",
+        "representing": "Los Angeles Local Operators"
+      },
+      {
+        "name": "Liam Matthews",
+        "role": "Member",
+        "representing": "LA County Independent Living Centers Collaboration"
+      },
+      {
+        "name": "Dolores Nason",
+        "role": "Member",
+        "representing": "County of Los Angeles, Board of Supervisors"
+      },
+      {
+        "name": "John B. Troost",
+        "role": "Member",
+        "representing": "LA County Commission on Disabilities"
+      },
+      {
+        "name": "Vacant",
+        "role": "Member",
+        "representing": "City of Los Angeles Mayor's Office"
+      }
+    ]
+  },
+  "tpac": {
+    "name": "Transportation Professionals Advisory Committee (TPAC)",
+    "purpose": "Advisory committee of transit professionals from member agencies",
+    "meeting_schedule": "2nd Thursday of every other month (January, March, May, July, September, November)",
+    "meeting_time": "9:30 AM to 10:30 AM",
+    "meeting_location": "Access Services, 3449 Santa Anita Ave, 3rd Floor Council Room, El Monte, CA 91731",
+    "chair": {
+      "name": "David Feinberg",
+      "agency": "Santa Monica's Big Blue Bus"
+    },
+    "vice_chair": {
+      "name": "Lamicia Butler",
+      "agency": "Montebello Bus Lines"
+    },
+    "members": [
+      {"name": "Fayma Ishaq", "agency": "Metro"},
+      {"name": "Tyron Gunn", "agency": "City of Redondo Beach"},
+      {"name": "Janna Smith", "agency": "LADOT"},
+      {"name": "Erica Jacquez", "agency": "Pomona Valley Transportation Authority"},
+      {"name": "Sebastian Hernandez", "agency": "City of Pasadena"},
+      {"name": "Chaka Garbutt", "agency": "Long Beach Transit"},
+      {"name": "James Lee", "agency": "Torrance Transit"},
+      {"name": "Melissa Mungia", "agency": "Orange County Transportation Authority"},
+      {"name": "LaShawn Gillespsie", "agency": "Foothill Transit"},
+      {"name": "Liliana Huerta", "agency": "East Los Angeles Regional Center"},
+      {"name": "Tisha Lane", "agency": "Antelope Valley Transit Authority"},
+      {"name": "Silva Baghdanian", "agency": "Glendale Beeline"},
+      {"name": "Frazier Watts", "agency": "GTrans"}
+    ]
+  },
+  "cac": {
+    "name": "Community Advisory Committee (CAC)",
+    "purpose": "Advisory committee of riders and disability community advocates",
+    "meeting_schedule": "2nd Tuesday of each month",
+    "meeting_time": "1:00 PM to 3:15 PM",
+    "meeting_format": "In-person and virtual",
+    "meeting_location": "Access Services, 3449 Santa Anita Ave, 3rd Floor Council Room, El Monte, CA 91731",
+    "how_to_apply": {
+      "description": "Always accepting applications",
+      "submit_via": {
+        "mail": "Access Services, Attn: Community Advisory Committee, PO Box 5728, El Monte, CA 91734",
+        "fax": "213-270-6055",
+        "email": "cserv@accessla.org"
+      }
+    },
+    "chair": {"name": "Yael Hagen"},
+    "vice_chair": {"name": "Terri Lantz", "affiliation": "United Cerebral Palsy"},
+    "members": [
+      {"name": "Olivia Almalel"},
+      {"name": "Maria Aroch", "affiliation": "Southern California Rehabilitation Services"},
+      {"name": "Scott Barron"},
+      {"name": "Steve Bauer"},
+      {"name": "Wendy Cabil"},
+      {"name": "Gordon Cardona"},
+      {"name": "Kimberly Hudson"},
+      {"name": "Jan Johnson"},
+      {"name": "Bhumit Shah"},
+      {"name": "Jonna Wilkins"}
+    ]
+  },
+  "key_staff": [
+    {
+      "name": "Torrance Johnson",
+      "title": "Reasonable Modification Coordinator",
+      "phone": "213-270-6159",
+      "fax": "213-270-6057",
+      "email": "RMC@accessla.org"
+    },
+    {
+      "name": "Eric Haack",
+      "title": "Parents with Disabilities Program Coordinator",
+      "fax": "213-270-6055"
+    },
+    {
+      "name": "Lilly Ortiz",
+      "title": "Metro On the Move Riders Program",
+      "phone": "213-922-2299",
+      "email": "ortizl@metro.net",
+      "note": "External: Metro staff, not Access employee"
+    }
+  ]
+}

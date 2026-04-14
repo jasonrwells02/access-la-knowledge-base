@@ -1,0 +1,85 @@
+{
+  "meetings": [
+    {
+      "id": "board",
+      "name": "Board of Directors Meeting",
+      "schedule": "4th Monday of each month",
+      "time": "12:00 PM to 3:00 PM",
+      "format": "Hybrid (in-person and virtual via Zoom webinar)",
+      "location": "Access Services, 3449 Santa Anita Ave, 3rd Floor Council Room, El Monte, CA 91731",
+      "public": true,
+      "public_comment": true,
+      "meetings_per_year": 11,
+      "annual_meeting_month": "November",
+      "info_phone": "213-270-6110",
+      "upcoming": [
+        {"date": "2026-04-27", "note": "Regular meeting"},
+        {"date": "2026-05-26", "note": "Regular meeting (Memorial Day week, may be rescheduled)"}
+      ],
+      "recent": [
+        {"date": "2026-03-23", "materials": "Agenda, presentations, Demand Forecasting Technical Report"},
+        {"date": "2026-02-23", "materials": "Agenda with exhibits and presentations"},
+        {"date": "2026-01-26", "materials": "Agenda includes customer survey questions and presentations"}
+      ]
+    },
+    {
+      "id": "cac",
+      "name": "Community Advisory Committee (CAC)",
+      "schedule": "2nd Tuesday of each month",
+      "time": "1:00 PM to 3:15 PM",
+      "format": "Hybrid (in-person and virtual via Zoom)",
+      "location": "Access Services, 3449 Santa Anita Ave, 3rd Floor Council Room, El Monte, CA 91731",
+      "public": true,
+      "info_phone": "213-270-6110",
+      "upcoming": [
+        {"date": "2026-04-14", "note": "Regular meeting"},
+        {"date": "2026-05-12", "note": "Regular meeting"}
+      ]
+    },
+    {
+      "id": "tpac",
+      "name": "Transportation Professionals Advisory Committee (TPAC)",
+      "schedule": "2nd Thursday of every other month (January, March, May, July, September, November)",
+      "time": "9:30 AM to 10:30 AM",
+      "format": "Meeting at Access Services headquarters",
+      "location": "Access Services, 3449 Santa Anita Ave, 3rd Floor Council Room, El Monte, CA 91731",
+      "public": true,
+      "info_phone": "213-270-6110",
+      "upcoming": [
+        {"date": "2026-05-14", "note": "Regular meeting"},
+        {"date": "2026-07-09", "note": "Regular meeting"}
+      ],
+      "recent": [
+        {"date": "2026-03-12"},
+        {"date": "2026-01-08"}
+      ]
+    },
+    {
+      "id": "boc",
+      "name": "Board Operations Committee (BOC)",
+      "schedule": "As needed (typically tied to audit reviews)",
+      "recent": [
+        {"date": "2026-01-26", "materials": "FY25 Audit materials and presentation"},
+        {"date": "2025-06-30", "materials": "FY24 Audit materials and presentation"}
+      ]
+    }
+  ],
+  "community_meetings": {
+    "description": "Public community meetings held periodically for rider input",
+    "recent": [
+      {"period": "Spring 2026", "format": "Recording available"},
+      {"period": "August 2025", "format": "Recording available"},
+      {"period": "March 2025", "format": "Recording available"}
+    ]
+  },
+  "how_to_participate": {
+    "description": "The public can attend Board and CAC meetings, provide public comment, or share thoughts through other channels.",
+    "options": [
+      "Attend in person at Access Services headquarters",
+      "Join virtually via Zoom (links posted with agendas on accessla.org)",
+      "Submit written comments via Contact Us page at accessla.org",
+      "Call Customer Service at 800-827-0829 (Monday through Friday, 8 AM to 5 PM)",
+      "Call InfoLine at 213-270-6110 for meeting schedule updates"
+    ]
+  }
+}

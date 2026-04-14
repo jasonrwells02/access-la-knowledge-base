@@ -1,0 +1,410 @@
+{
+  "fares": {
+    "standard": {
+      "under_20_miles": {
+        "amount": 2.75,
+        "description": "One-way fare for trips up to 19.9 miles"
+      },
+      "over_20_miles": {
+        "amount": 3.50,
+        "description": "One-way fare for trips 20 miles or more"
+      },
+      "santa_clarita_antelope_valley": {
+        "amount": 2.00,
+        "description": "One-way fare for trips within Santa Clarita Valley or Antelope Valley"
+      },
+      "transfer_trips": "Same distance-based rates apply to transfer trips"
+    },
+    "pca": {
+      "amount": 0.00,
+      "description": "Personal Care Attendants ride free. Must be identified when making reservation. Must board and exit with rider."
+    },
+    "guest": {
+      "amount": "Same fare as rider",
+      "description": "One guest always allowed if space available. Additional guests permitted only if room exists. Guests pay same fare as rider."
+    },
+    "children": {
+      "under_6": "Free on parent's lap",
+      "6_and_over": "Pay fare as guest, need own seat",
+      "car_seat_required": "Children under 8 or under 4'9\" must use safety/booster seat. Rider provides seat; driver may assist installation."
+    },
+    "payment_methods": [
+      {
+        "method": "Cash",
+        "note": "Exact change only. Drivers cannot make change."
+      },
+      {
+        "method": "Credit/Debit Card",
+        "accepted": ["VISA", "MasterCard", "Discover"],
+        "note": "Not accepted in Santa Clarita region"
+      },
+      {
+        "method": "Coupon Books",
+        "note": "Non-refundable. Access not responsible for lost or stolen coupons."
+      }
+    ],
+    "coupon_books": {
+      "base_fare": {
+        "price": 27.50,
+        "contains": "10 coupons at $2.75 each"
+      },
+      "plus_zone": {
+        "price": 7.50,
+        "contains": "10 coupons at $0.75 each",
+        "use": "For trips 20+ miles (use with base fare coupon)"
+      },
+      "flex": {
+        "price": 20.00,
+        "contains": "10 coupons at $2.00 each",
+        "use": "For Santa Clarita/Antelope Valley trips, or $2.00 toward any trip"
+      },
+      "purchase_options": [
+        {
+          "method": "Mail",
+          "instructions": "Write Rider ID on check/money order. Send to PO Box 5728, El Monte, CA 91734. Allow 10 days for processing."
+        },
+        {
+          "method": "Online",
+          "instructions": "Order through accessla.org coupon ordering page"
+        },
+        {
+          "method": "In-person",
+          "locations": [
+            "Antelope Valley Transit Authority",
+            "Pomona Valley Transportation Authority",
+            "Santa Fe Springs Finance Counter",
+            "Azusa Senior Center (by appointment)",
+            "El Monte office ($500+ purchases only, by appointment)"
+          ]
+        }
+      ]
+    }
+  },
+  "booking": {
+    "advance_booking": {
+      "minimum": "1 day in advance (next-day booking)",
+      "maximum": "3 days in advance",
+      "same_day": "Not guaranteed, may be available based on capacity"
+    },
+    "reservation_hours": {
+      "general": "6:00 AM to 10:00 PM, 7 days a week",
+      "santa_clarita_antelope_valley": "Monday through Saturday 6:00 AM to 8:00 PM, Sunday 8:00 AM to 8:00 PM"
+    },
+    "required_info": [
+      "Access Rider ID Number",
+      "Exact pick-up and drop-off addresses",
+      "Cross-streets or landmarks",
+      "Mobility device specifications (if applicable)",
+      "Service animal presence",
+      "Number of traveling companions",
+      "Desired pick-up time",
+      "Phone number for call-outs",
+      "Return trip time (must specifically request)"
+    ],
+    "one_hour_window": "Reservationists may offer pick-up times up to one hour before or after your requested time. If exact time unavailable, two alternatives are provided.",
+    "online_booking": {
+      "portal": "Rider360 at accessla.org or booking.accessla.org",
+      "regions": ["Eastern", "Southern", "West/Central", "Antelope Valley"],
+      "northern_region": "Northern region uses WMR app only",
+      "registration_requires": ["Rider ID number", "Eligibility Expiration Date", "Last Name", "Zip Code"]
+    },
+    "return_trips": "Must be explicitly requested. Scheduling is NOT automatic.",
+    "modifications": "Call reservations as soon as possible. Same-day changes may not be possible due to vehicle assignments.",
+    "standing_orders": {
+      "description": "Recurring trips for consistent schedules (work, school, church, dialysis)",
+      "minimum_commitment": "6 weeks",
+      "advance_request": "2+ weeks in advance",
+      "schedule_types": ["Daily", "Multiple-weekly", "Weekly", "Monthly", "Quarterly"],
+      "different_times_allowed": "Different pickup times allowed on different days",
+      "cancellation_rule": "Canceling 30+ consecutive days permanently cancels standing order",
+      "holiday_closures": ["New Year's Day", "Presidents' Day", "Memorial Day", "Independence Day", "Labor Day", "Veterans' Day", "Thanksgiving", "Day after Thanksgiving", "Christmas"]
+    }
+  },
+  "pickup": {
+    "on_time_window": {
+      "minutes": 20,
+      "description": "Vehicle is considered on-time if it arrives within 20 minutes of your scheduled pickup time. Example: if scheduled for 10:00 AM, vehicle may arrive between 9:40 AM and 10:20 AM."
+    },
+    "driver_wait_time": {
+      "minutes": 5,
+      "description": "Driver waits 5 minutes after arrival at the curb. If driver arrives early, the 5-minute wait begins at your scheduled pickup time."
+    },
+    "call_outs": {
+      "description": "Automated phone/text notification when your vehicle is approaching",
+      "note": "Cannot be guaranteed. May fail with incorrect phone numbers, voicemail systems, or devices requiring extra key presses. Cell phone numbers recommended."
+    },
+    "vehicle_recognition": "White minivans/sedans with Access logo on doors, or certified Access taxis with logos on sides/rear. Ask driver if uncertain.",
+    "eta_requests": "Call 800-883-1295 (press Option 4) within 15 minutes of your scheduled pickup time. You'll receive the vehicle number, type, location, and arrival estimate.",
+    "wheres_my_ride": {
+      "description": "Track vehicle location 15 minutes before scheduled pickup",
+      "platforms": ["iPhone (App Store)", "Android (Play Store)", "Computer/tablet (web)", "SMS text messaging"],
+      "ios_link": "https://apps.apple.com/us/app/access-services/id1111540411",
+      "android_link": "https://play.google.com/store/apps/details?id=com.access.rider",
+      "hotline": "213-270-6099"
+    },
+    "missed_trip": "Call Operations Monitoring Center (OMC) at 800-827-0829 (press 2). Available 24/7. OMC secures alternate Access vehicle or backup provider.",
+    "curb_to_curb": {
+      "description": "Access is a curb-to-curb service. Driver cannot enter buildings or private driveways.",
+      "rider_responsibility": "Rider is responsible for reaching the curb. Driver offers boarding assistance but does not lift or carry riders.",
+      "unsafe_locations": "Vehicles cannot access unsafe locations. Driver finds closest safe alternative.",
+      "parking_rules": "Drivers avoid blocking driveways, emergency entrances, and red-zoned areas."
+    }
+  },
+  "no_show": {
+    "definition": [
+      "Canceling less than 2 hours before scheduled pickup time",
+      "Driver arrives within 20-minute window, waits 5 minutes, cannot find you, and obtains dispatcher approval to depart"
+    ],
+    "not_a_no_show": [
+      "Driver arrives after the 20-minute window and rider cancels",
+      "Driver arrives or departs before the scheduled pickup time",
+      "Driver fails to wait the required 5 minutes"
+    ],
+    "threshold": {
+      "count": 5,
+      "percentage": 10,
+      "period": "calendar month",
+      "description": "Five or more no-shows in a calendar month exceeding 10% of your total scheduled trips triggers potential suspension"
+    },
+    "consequences": {
+      "warning": "Written notice after 2nd incident",
+      "first_suspension": "10 days",
+      "subsequent_suspensions": "30 days",
+      "clearance": "Suspension record clears after 6 months without additional violations"
+    },
+    "appeal": "Contact Customer Service to explain circumstances or dispute decisions",
+    "prevention_tips": [
+      "Provide accurate pickup addresses",
+      "Keep a reliable phone number on file",
+      "Set reminders for your trips",
+      "Be ready and visible at the curb before pickup time",
+      "Use the Where's My Ride app to track your vehicle",
+      "Ask family or caregivers for help with reminders"
+    ]
+  },
+  "cancellation": {
+    "advance_required": "At least 2 hours before scheduled pickup time",
+    "how_to_cancel": "Call Reservations at 800-883-1295",
+    "late_cancellation": "Canceling less than 2 hours before pickup is recorded as a No Show",
+    "drop_off_pickup": "Schedule as two separate trips. Driver cannot wait at a location."
+  },
+  "mobility_devices": {
+    "max_width_inches": 30,
+    "max_length_inches": 48,
+    "max_weight_lbs": 600,
+    "weight_includes": "Combined weight of device AND rider",
+    "standard": "WC19-compliant wheelchairs recommended",
+    "vehicle_types": "Accessible vehicles have ramps; some have lifts",
+    "securement": "Positioning belts offered for mobility device security. Seatbelts required (extensions available).",
+    "device_change_notice": "Riders changing devices must notify Access Customer Service to ensure proper vehicle assignment",
+    "device_users": "Riders using wheelchairs/scooters automatically receive accessible vehicles",
+    "non_device_users": "Non-device-using riders may receive standard or accessible vehicles (cannot request specific types)"
+  },
+  "companions": {
+    "pca": {
+      "fare": "Free",
+      "requirements": "Must be identified at time of reservation. Must board and exit with rider. Cannot be required but recommended for riders with cognitive conditions.",
+      "how_to_add": "Call 800-827-0829 to add PCA to your card",
+      "finding_aide": "Personal Assistance Services Council (PASC) at 877-565-4477 can help locate aides"
+    },
+    "guests": {
+      "fare": "Same as rider fare",
+      "limit": "One guest always allowed if space available. Additional guests only if room exists."
+    },
+    "children": {
+      "under_6": "Free with eligible rider",
+      "age_7_plus": "Pay fare as guest",
+      "under_5_requires_adult": "Children 5 and under require accompanying adult",
+      "car_seat_required": "Ages 5-8 or under 4'9\" must use safety/booster seat (rider provides; driver may assist installation)"
+    }
+  },
+  "code_of_conduct": {
+    "required_behaviors": [
+      "Seatbelt use (mandatory)",
+      "Acceptable cleanliness standards",
+      "Headphones for audio equipment (exception: communication devices for hearing/speech impaired)"
+    ],
+    "prohibited": [
+      "Eating or drinking (unless medically necessary)",
+      "Smoking or vaping",
+      "Abusive language or behavior",
+      "Interference with safe vehicle operation",
+      "Harassment of riders, drivers, or employees",
+      "Riding under alcohol or drug influence",
+      "Hazardous materials, weapons, explosives",
+      "Tampering with Access equipment",
+      "Threatening communications",
+      "Violence toward others or self"
+    ],
+    "consequences": "Violations may result in suspension. Physical assault or dangerous behavior may trigger immediate suspension and criminal prosecution.",
+    "penal_codes": {
+      "241.3": "Assault on transportation worker",
+      "243.3": "Battery on transportation worker",
+      "245.2": "Assault with deadly weapon on transportation worker",
+      "penalties": "Fines up to $10,000 and up to five years imprisonment"
+    },
+    "involuntary_behavior_exception": "Non-violent involuntary behavior without direct threat does not result in suspension",
+    "video_audio_recording": "All vehicles equipped with cameras. Occupants are subject to recording for safety purposes."
+  },
+  "complaints": {
+    "how_to_file": {
+      "phone": "800-827-0829 (Monday through Friday, 8 AM to 5 PM)",
+      "tdd": "800-827-1359",
+      "email": "cserv@accessla.org",
+      "mail": "Access Customer Service, PO Box 5728, El Monte, CA 91734",
+      "web": "accessla.org/contactform"
+    },
+    "required_information": [
+      "Rider ID Number",
+      "Full name, address, phone, email",
+      "Filer name (if different from rider)",
+      "Incident date, time, location",
+      "Region or contractor involved",
+      "Names of involved parties and witnesses",
+      "Detailed summary (including pickup address, requested time, given time, actual arrival for pickup issues)"
+    ],
+    "response_timeline": "14 calendar days (if response requested)",
+    "rider360_tracking": "Registered web users can view complaint history and file new complaints at accessla.org/rider360",
+    "federal_escalation": {
+      "agency": "Federal Transit Administration, Office of Civil Rights",
+      "phone": "888-446-4511",
+      "address": "Attention: Complaint Team, East Building, 5th Floor TCR, 1200 New Jersey Ave SE, Washington, DC 20590"
+    },
+    "retaliation_protection": "Riders may not experience retaliation for complaints. Access immediately investigates retaliation claims."
+  },
+  "title_vi": {
+    "filing_deadline": "Within 180 days of the alleged discriminatory act",
+    "format": "Written and signed by complainant or representative, detailing facts and circumstances",
+    "timeline": {
+      "acknowledgment": "Within 10 days of receipt",
+      "investigation": "Within 60 days",
+      "final_decision": "Within 90 days (Executive Director provides written decision)"
+    },
+    "appeal": "Dissatisfied complainants may appeal to Federal Transit Administration Office of Civil Rights"
+  },
+  "eligibility": {
+    "basis": "Based on the person with a disability's ability to use accessible buses and trains in LA County, not solely based on disability, age, or medical diagnosis.",
+    "categories": [
+      {
+        "type": "Unrestricted",
+        "description": "Eligible for all Access trips"
+      },
+      {
+        "type": "Restricted",
+        "description": "Eligible for certain trip types based on functional limitations"
+      },
+      {
+        "type": "Temporary",
+        "description": "Eligible with an expiration date"
+      }
+    ],
+    "process": {
+      "step_1": {
+        "name": "Determine Eligibility",
+        "action": "Download Evaluation Information and Application Packet from accessla.org (English/Spanish). Call 800-827-0829 for alternative formats."
+      },
+      "step_2": {
+        "name": "Obtain Access ID Number",
+        "options": [
+          "Online at eligibility.accessla.org",
+          "Phone: 800-827-0829 (option 1)",
+          "TDD: 800-827-1359"
+        ]
+      },
+      "step_3": {
+        "name": "Schedule Transit Evaluation",
+        "phone": "626-532-1616 (TDD: 626-532-1620)",
+        "online_wait": "3 days after online application",
+        "mail_wait": "7 days after mailing application",
+        "languages": "English and Spanish. Sign language interpretation available upon request.",
+        "transportation": "Free transportation to/from evaluation center provided if needed",
+        "duration": "Process takes up to 4 hours total. Evaluation itself is approximately 45 minutes.",
+        "bring": [
+          "Valid photo ID",
+          "Medical documents, reports, medication list explaining disability impact",
+          "Mobility device normally used in community"
+        ]
+      },
+      "step_4": {
+        "name": "Approval Process",
+        "timeline": "Written notification within 21 days",
+        "delayed": "Service may be used pending notification if delayed beyond 21 days"
+      }
+    },
+    "renewal": {
+      "notice": "Renewal information mailed 60 days before expiration",
+      "action": "Ensure address and phone are current. Contact Customer Service at 800-827-0829 (Option 3) if notice not received."
+    },
+    "appeal": {
+      "deadline": "Within 60 days of denial",
+      "how": "Request an appeal by calling Customer Service at 800-827-0829. Appeals form available in English/Spanish."
+    },
+    "id_card": {
+      "description": "Green Access Rider ID Card with ID number below name. Must be shown for every trip.",
+      "fraud_warning": "Cards cannot be shared. Sharing constitutes fraud punishable by criminal prosecution and eligibility loss.",
+      "lost_card": "Call 800-827-0829 (Option 4) to authorize riding with valid government ID while waiting for replacement.",
+      "accepted_ids": ["Driver's License", "Passport", "Consulate ID", "Metro TAP Card", "Military ID", "School ID"]
+    },
+    "temporary_disability": "Yes, you can apply for Access with a temporary disability. Call Customer Service at 800-827-0829."
+  },
+  "packages_luggage": {
+    "limit": "Two large paper grocery bags per rider (including PCA and/or guest)",
+    "max_weight": "25 pounds total",
+    "storage": "Packages should be stored in available storage area",
+    "exceptions": "Approved if slight excess won't inconvenience other riders",
+    "rider_responsibility": "Rider maintains control of packages during travel"
+  },
+  "service_animals": {
+    "fare": "Free",
+    "carrier_not_required": "Service animals are not required to be in carriers",
+    "placement": "Must remain on vehicle floor",
+    "non_service_pets": "Must be in secured carriers. Driver cannot assist loading/unloading."
+  },
+  "lost_and_found": {
+    "phone": "800-883-1295 (option 2 after selecting region)",
+    "hours": "8 AM to 5 PM, 7 days a week",
+    "retention": "Items retained 60 days",
+    "disclaimer": "Access not responsible for lost or damaged items"
+  },
+  "tipping": "Drivers are prohibited from accepting tips. Compliments can be sent through Customer Service.",
+  "language_access": "When calling Reservations or Customer Service, let the agent know which language you speak. They will connect you with a translator who can support throughout the call.",
+  "holiday_schedule": {
+    "description": "Access Services observes the following holidays. Standing orders are automatically cancelled on these days. Regular next-day reservations may still be available depending on the region.",
+    "holidays": [
+      "New Year's Day",
+      "Presidents' Day",
+      "Memorial Day",
+      "Independence Day (July 4th)",
+      "Labor Day",
+      "Veterans' Day",
+      "Thanksgiving",
+      "Day after Thanksgiving",
+      "Christmas Day"
+    ],
+    "santa_clarita_holidays": {
+      "sunday_schedule": ["New Year's Day", "Memorial Day", "Independence Day", "Labor Day"],
+      "no_service": ["Thanksgiving", "Christmas"]
+    },
+    "antelope_valley_no_service": ["Labor Day", "Memorial Day", "Independence Day", "Thanksgiving", "Christmas", "New Year's Day"],
+    "note": "Service availability varies by region on holidays. Call Reservations at 800-883-1295 to check holiday service in your area."
+  },
+  "public_records_request": {
+    "description": "Members of the public may request copies of Access Services public records.",
+    "how_to_submit": "All requests must be made in writing using the Public Records Request Form available on accessla.org.",
+    "submit_to": {
+      "mail": "Access Services, Public Records Unit, PO Box 5728, El Monte, CA 91731",
+      "fax": "213-270-6057",
+      "email": "cserv@accessla.org"
+    },
+    "guidelines": "See Public Records Act Guidelines document on accessla.org for detailed policies."
+  },
+  "rider_alerts": {
+    "description": "Access Services publishes rider alerts for service changes, disruptions, and important notices.",
+    "how_to_access": [
+      "Visit accessla.org/news_and_events/rider_alerts.html",
+      "Subscribe to RSS feed for automatic updates",
+      "Call InfoLine at 213-270-6110 for recorded service announcements",
+      "Sign up for email alerts via Constant Contact on the Contact Us page"
+    ]
+  }
+}

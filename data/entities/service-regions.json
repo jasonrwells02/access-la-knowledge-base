@@ -1,0 +1,145 @@
+{
+  "regions": [
+    {
+      "id": "antelope-valley",
+      "name": "Antelope Valley",
+      "base_city": "Lancaster",
+      "contractor": {
+        "name": "First Transit",
+        "phone": "661-208-0410",
+        "careers": "https://apply.workatfirst.com/campaign/access/detail/"
+      },
+      "fare": 2.00,
+      "fare_note": "Antelope Valley reduced fare",
+      "reservation_hours": "Monday through Saturday 6:00 AM to 8:00 PM, Sunday 8:00 AM to 8:00 PM",
+      "service_hours": "Monday through Friday 5:00 AM to 12:45 AM, Saturday 5:50 AM to 11:45 PM, Sunday 6:00 AM to 9:20 PM",
+      "holiday_closures": ["Labor Day", "Memorial Day", "Independence Day", "Thanksgiving", "Christmas", "New Year's Day"],
+      "transfer_point": {
+        "name": "Olive View Medical Center",
+        "address": "14445 Olive View Drive, Sylmar",
+        "weekday_windows": ["6:00 AM", "10:00 AM", "3:00 PM", "6:00 PM", "8:00 PM"],
+        "weekend_windows": ["7:30 AM", "12:30 PM", "4:30 PM", "6:00 PM", "8:00 PM"]
+      },
+      "online_reservations": "Via WMR app"
+    },
+    {
+      "id": "northern",
+      "name": "Northern Region",
+      "base_city": "Van Nuys",
+      "contractor": {
+        "name": "MV Transportation",
+        "phone": "818-647-7960",
+        "careers": "http://careers.mvtransit.com"
+      },
+      "fare": null,
+      "fare_note": "Standard Access fares apply",
+      "online_reservations": "Via WMR app only (not via Rider360 web portal)"
+    },
+    {
+      "id": "eastern",
+      "name": "Eastern Region",
+      "base_city": "El Monte",
+      "contractor": {
+        "name": "San Gabriel Transit, Inc.",
+        "phone": "626-258-1310",
+        "careers": "http://sgtransit.com/careers/"
+      },
+      "fare": null,
+      "fare_note": "Standard Access fares apply",
+      "online_reservations": "Via Rider360 web portal and WMR app"
+    },
+    {
+      "id": "southern",
+      "name": "Southern Region",
+      "base_city": "Gardena",
+      "contractor": {
+        "name": "Global Paratransit, Inc.",
+        "phone": "310-715-7550",
+        "careers": "https://www.global-paratransit.com/careers/openings/"
+      },
+      "fare": null,
+      "fare_note": "Standard Access fares apply",
+      "online_reservations": "Via Rider360 web portal and WMR app"
+    },
+    {
+      "id": "west-central",
+      "name": "West/Central Region",
+      "base_city": "South Los Angeles",
+      "contractor": {
+        "name": "California Transit, Inc.",
+        "phone": "323-234-8750",
+        "careers": "http://sgtransit.com/careers/"
+      },
+      "fare": null,
+      "fare_note": "Standard Access fares apply",
+      "online_reservations": "Via Rider360 web portal and WMR app"
+    },
+    {
+      "id": "santa-clarita",
+      "name": "Santa Clarita",
+      "base_city": "Santa Clarita",
+      "contractor": {
+        "name": "City of Santa Clarita",
+        "phone": "661-295-6328"
+      },
+      "fare": 2.00,
+      "fare_note": "Santa Clarita reduced fare",
+      "reservation_hours": "Monday through Saturday 6:00 AM to 8:00 PM, Sunday 8:00 AM to 8:00 PM",
+      "service_hours": "Monday through Friday 4:00 AM to 11:15 PM, Saturday 5:00 AM to 10:00 PM, Sunday 7:00 AM to 9:00 PM",
+      "holiday_hours": "Sunday schedule (7:00 AM to 9:00 PM) for New Year's Day, Memorial Day, Independence Day, Labor Day. No service: Thanksgiving, Christmas.",
+      "payment_note": "Credit/debit cards NOT accepted in Santa Clarita",
+      "transfer_points": [
+        {
+          "name": "Olive View Medical Center",
+          "address": "14445 Olive View Drive, Sylmar",
+          "weekday_windows": ["6:00 AM", "10:00 AM", "3:00 PM", "6:00 PM", "8:00 PM"],
+          "weekend_windows": ["7:30 AM", "12:30 PM", "4:30 PM", "6:00 PM", "8:00 PM"]
+        },
+        {
+          "name": "McDonald's",
+          "address": "19401 Golden Valley Road, Santa Clarita"
+        }
+      ],
+      "online_reservations": "Via Rider360 web portal and WMR app"
+    }
+  ],
+  "supplemental_services": [
+    {
+      "id": "mmp",
+      "name": "Mobility Management Partners, Inc.",
+      "type": "Field-based contractor",
+      "phone": "888-667-7003",
+      "services": ["Travel training", "Transportation Mobility Specialist", "Community outreach"],
+      "coverage": "Los Angeles County (field-based)"
+    }
+  ],
+  "travel_time_estimates": {
+    "1_to_10_miles": "30 minutes to 1.5 hours",
+    "11_to_20_miles": "1 to 2.5 hours",
+    "21_to_30_miles": "1.5 to 3 hours",
+    "over_30_miles": "2 to 3.5+ hours",
+    "note": "Trips are shared-ride. Routes may not be direct. Per ADA law, trip may take as long as a comparable bus/train trip."
+  },
+  "city_to_region_mapping": {
+    "description": "Maps LA County cities/areas to Access service regions. Use this to tell a caller which region they are in. Note: some areas may overlap or be approximate. When in doubt, advise the caller to select their region when calling Reservations at 800-883-1295.",
+    "antelope-valley": [
+      "Lancaster", "Palmdale", "Littlerock", "Lake Los Angeles", "Quartz Hill", "Rosamond", "Acton", "Agua Dulce", "Lake Hughes", "Pearblossom"
+    ],
+    "santa-clarita": [
+      "Santa Clarita", "Valencia", "Newhall", "Saugus", "Canyon Country", "Stevenson Ranch", "Castaic"
+    ],
+    "northern": [
+      "Van Nuys", "North Hollywood", "Sherman Oaks", "Encino", "Tarzana", "Woodland Hills", "Canoga Park", "Chatsworth", "Northridge", "Granada Hills", "Sylmar", "San Fernando", "Sunland", "Tujunga", "Sun Valley", "Pacoima", "Panorama City", "Reseda", "Winnetka", "Calabasas", "Hidden Hills", "Westlake Village", "Burbank", "Glendale", "La Crescenta", "La Canada Flintridge", "Pasadena", "Altadena", "Sierra Madre", "Arcadia", "Monrovia", "Duarte", "Azusa", "Glendora", "San Dimas", "La Verne", "Claremont"
+    ],
+    "eastern": [
+      "El Monte", "South El Monte", "Rosemead", "Monterey Park", "Alhambra", "San Gabriel", "Temple City", "Baldwin Park", "West Covina", "Covina", "La Puente", "Hacienda Heights", "Rowland Heights", "Diamond Bar", "Walnut", "Pomona", "Industry", "Irwindale", "West Puente Valley"
+    ],
+    "west-central": [
+      "Downtown Los Angeles", "Hollywood", "West Hollywood", "Beverly Hills", "Culver City", "Santa Monica", "Venice", "Westwood", "Brentwood", "Pacific Palisades", "Malibu", "Mid-Wilshire", "Koreatown", "Echo Park", "Silver Lake", "Los Feliz", "Eagle Rock", "Highland Park", "South Los Angeles", "Watts", "Willowbrook", "Florence", "Hyde Park", "View Park", "Leimert Park", "Crenshaw", "Inglewood", "Hawthorne", "Lawndale", "Lennox", "Westchester", "Playa del Rey", "Marina del Rey", "El Segundo", "Huntington Park", "Maywood", "Bell", "Bell Gardens", "Cudahy", "Vernon", "Commerce"
+    ],
+    "southern": [
+      "Gardena", "Torrance", "Redondo Beach", "Hermosa Beach", "Manhattan Beach", "Palos Verdes", "Rancho Palos Verdes", "Rolling Hills", "Rolling Hills Estates", "Lomita", "Harbor City", "San Pedro", "Wilmington", "Carson", "Compton", "Lynwood", "Paramount", "Bellflower", "Lakewood", "Cerritos", "Artesia", "Hawaiian Gardens", "Long Beach", "Signal Hill", "Norwalk", "La Mirada", "Santa Fe Springs", "Whittier", "Pico Rivera", "Montebello", "Downey", "South Gate"
+    ],
+    "lookup_note": "If a city is not listed, the caller should select their region when calling Reservations at 800-883-1295. The system will prompt them to choose their region. Coverage extends within 3/4 mile of fixed-route bus lines and Metro Rail stations."
+  }
+}

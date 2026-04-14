@@ -1,0 +1,275 @@
+{
+  "description": "Maps caller intents to actions for the AI phone agent. Priority: answer from KB when possible, transfer when the caller needs to take action.",
+  "intents": [
+    {
+      "id": "book-trip",
+      "patterns": ["book a ride", "schedule a trip", "make a reservation", "I need a ride", "pick me up", "schedule a ride", "reserve", "book trip", "next day trip"],
+      "action": "transfer",
+      "transfer_to": "reservations",
+      "spoken_response": "I'll transfer you to our Reservations line. They're available from 6 AM to 10 PM, seven days a week. Just select your region when prompted."
+    },
+    {
+      "id": "trip-late",
+      "patterns": ["where's my ride", "when is my ride coming", "my ride is late", "how long until pickup", "vehicle status", "waiting for ride", "ride hasn't come", "driver hasn't arrived", "still waiting"],
+      "action": "transfer",
+      "transfer_to": "omc",
+      "spoken_response": "Let me connect you with our Operations Monitoring Center. They can check on your vehicle and give you a real-time update. They're available 24/7."
+    },
+    {
+      "id": "cancel-trip",
+      "patterns": ["cancel my ride", "cancel my trip", "I don't need my ride", "cancel reservation", "cancel booking"],
+      "action": "answer_then_transfer",
+      "answer": "Remember to cancel at least 2 hours before your scheduled pickup to avoid a no-show on your record.",
+      "transfer_to": "reservations",
+      "spoken_response": "I can help with that. Just a reminder that canceling less than 2 hours before your pickup time counts as a no-show. Let me transfer you to Reservations to process the cancellation."
+    },
+    {
+      "id": "modify-trip",
+      "patterns": ["change my ride", "modify my trip", "change pickup time", "update reservation", "change address", "different time"],
+      "action": "transfer",
+      "transfer_to": "reservations",
+      "spoken_response": "Let me transfer you to Reservations so they can update your trip. Keep in mind that same-day changes may not always be possible."
+    },
+    {
+      "id": "fare-question",
+      "patterns": ["how much", "fare", "cost", "price", "what do I pay", "how much does it cost"],
+      "action": "answer",
+      "answer_source": "policies.fares",
+      "spoken_response": "A one-way trip costs $2.75 for trips under 20 miles, and $3.50 for trips 20 miles or more. Trips in Santa Clarita or the Antelope Valley are $2.00. Personal Care Attendants ride free, and guests pay the same fare. You can pay with exact cash, credit card, or coupon books."
+    },
+    {
+      "id": "eligibility-question",
+      "patterns": ["am I eligible", "how to sign up", "apply for access", "get certified", "eligibility", "how do I become a rider", "apply", "sign up"],
+      "action": "answer_then_transfer",
+      "answer_source": "faqs.eligibility",
+      "transfer_to": "cs-main",
+      "spoken_response": "Eligibility is based on your functional ability to use fixed-route buses and trains, not just your disability. The process starts with getting an ID number and scheduling an evaluation. Would you like me to transfer you to Customer Service to begin the application process?"
+    },
+    {
+      "id": "complaint",
+      "patterns": ["complaint", "complain", "problem with driver", "bad service", "file a complaint", "rude driver", "unhappy", "terrible service", "report"],
+      "action": "transfer",
+      "transfer_to": "cs-main",
+      "spoken_response": "I'm sorry to hear about your experience. Let me connect you with Customer Service so they can document your concern and follow up with you within 14 days."
+    },
+    {
+      "id": "compliment",
+      "patterns": ["compliment", "great driver", "thank", "good service", "appreciate", "wonderful driver", "praise"],
+      "action": "transfer",
+      "transfer_to": "cs-main",
+      "spoken_response": "That's wonderful to hear! Let me connect you with Customer Service so they can pass along your kind words to the driver and their team."
+    },
+    {
+      "id": "no-show-question",
+      "patterns": ["no show", "no-show", "suspended", "suspension", "missed my ride", "penalty", "no shows on my record"],
+      "action": "answer",
+      "answer_source": "policies.no_show",
+      "spoken_response": "A no-show is recorded if you cancel less than 2 hours before pickup, or if the driver arrives within your 20-minute window, waits 5 minutes, and can't find you. Five or more in a month that exceed 10% of your trips can lead to a suspension. You can appeal any suspension through Customer Service. Would you like more details?"
+    },
+    {
+      "id": "card-lost",
+      "patterns": ["lost my card", "need new card", "card replacement", "lost ID", "replace card", "waiting for card"],
+      "action": "answer_then_transfer",
+      "answer": "You can ride with a valid government ID while waiting for your replacement card.",
+      "transfer_to": "cs-main",
+      "transfer_option": "Option 4",
+      "spoken_response": "Don't worry, you can still ride while waiting for a new card. Just call Customer Service and select Option 4 to authorize riding with a government-issued ID. Let me transfer you now."
+    },
+    {
+      "id": "wheelchair-question",
+      "patterns": ["wheelchair", "mobility device", "scooter", "too big", "device size", "weight limit", "wheelchair size", "power chair"],
+      "action": "answer",
+      "answer_source": "policies.mobility_devices",
+      "spoken_response": "Your mobility device needs to fit within 30 inches wide by 48 inches long, and the combined weight of you and your device can't exceed 600 pounds. If your device exceeds those limits, our Reasonable Modification Coordinator can help. Would you like that contact information?"
+    },
+    {
+      "id": "beyond-curb",
+      "patterns": ["door to door", "help to door", "assistance", "beyond the curb", "can't walk to curb", "help getting inside", "escort"],
+      "action": "answer",
+      "answer_source": "programs.beyond-the-curb",
+      "spoken_response": "Our Beyond the Curb service provides driver assistance up to 60 feet from the vehicle to your destination. You can request it when you make your reservation. If you need to apply for the first time, call 800-827-0829 and press 6 for a Reasonable Modification form."
+    },
+    {
+      "id": "free-fare",
+      "patterns": ["free fare", "TAP card", "free bus", "fixed route free", "free ride", "free on metro", "free train"],
+      "action": "answer",
+      "answer_source": "programs.free-fare",
+      "spoken_response": "As an Access rider, you can ride most buses and trains in LA County for free using your green Access ID card. It works on 24 transit systems including Metro Bus, Metro Rail, and many local operators. No sign-up needed. Just tap your card when you board."
+    },
+    {
+      "id": "parents-program",
+      "patterns": ["parent", "children", "school trip", "kids", "parents with disabilities", "take my kid to school"],
+      "action": "answer",
+      "answer_source": "programs.parents-with-disabilities",
+      "spoken_response": "The Parents with Disabilities Program helps you get your children to school on time. The fare is just $2 one way, and trips are scheduled around school times. You can also get linked trips to continue to another destination after drop-off. Would you like to learn how to enroll?"
+    },
+    {
+      "id": "visitor",
+      "patterns": ["visitor", "visiting LA", "from out of town", "temporary", "visiting", "tourist", "not from here", "from another state"],
+      "action": "answer",
+      "answer_source": "programs.visitor",
+      "spoken_response": "Welcome! If you have ADA paratransit eligibility in your home area, you can use Access for up to 21 days per year. Send proof of your eligibility by email to cserv@accessla.org or fax to 213-270-6057. Processing takes about one business day. Then call 800-827-0829, Option 6 to make reservations."
+    },
+    {
+      "id": "reasonable-modification",
+      "patterns": ["modification", "accommodation", "special need", "exception", "can't do", "disability accommodation", "policy exception"],
+      "action": "answer_then_transfer",
+      "answer_source": "programs.reasonable-modification",
+      "transfer_to": "rmc",
+      "spoken_response": "Access offers reasonable modifications to its policies to accommodate specific disability needs. I can connect you with our Reasonable Modification Coordinator, Torrance Johnson, at 213-270-6159. Would you like me to transfer you?"
+    },
+    {
+      "id": "travel-training",
+      "patterns": ["travel training", "learn to ride bus", "fixed route training", "independence", "learn transit", "how to ride bus"],
+      "action": "answer",
+      "answer_source": "programs.travel-training",
+      "spoken_response": "Travel Training is a free program that teaches you how to use regular buses and trains independently. It's one-on-one training covering schedules, fares, boarding, transfers, and safety. Call Mobility Management Partners at 888-667-7003 to get started. It won't affect your Access eligibility."
+    },
+    {
+      "id": "meeting-info",
+      "patterns": ["board meeting", "CAC meeting", "when is the meeting", "public meeting", "attend meeting", "public comment"],
+      "action": "answer",
+      "answer_source": "meetings",
+      "spoken_response": "The Board of Directors meets on the 4th Monday of each month from noon to 3 PM. The Community Advisory Committee meets on the 2nd Tuesday from 1 to 3:15 PM. Both are open to the public and available in person at our El Monte office or via Zoom. Call 213-270-6110 for meeting details and Zoom links."
+    },
+    {
+      "id": "coupon-books",
+      "patterns": ["coupon", "coupon book", "prepay", "buy coupons", "order coupons"],
+      "action": "answer",
+      "answer_source": "policies.fares.coupon_books",
+      "spoken_response": "Coupon books are available in three types. The Base Fare book is $27.50 for 10 coupons. You can order online at accessla.org, by mail with a check, or at select locations. Would you like more details on ordering?"
+    },
+    {
+      "id": "service-area",
+      "patterns": ["service area", "do you serve", "my area", "region", "what cities", "do you go to", "where do you serve"],
+      "action": "answer",
+      "answer_source": "service-regions",
+      "spoken_response": "Access serves within three-quarters of a mile of fixed-route bus lines and Metro Rail stations throughout LA County. That covers over 1,950 square miles, from Lancaster to Long Beach and Malibu to Montclair. We also reach into parts of San Bernardino, Orange, and Ventura counties. Would you like to know which region you're in?"
+    },
+    {
+      "id": "companion-question",
+      "patterns": ["PCA", "personal care attendant", "guest", "companion", "bring someone", "ride with me", "bring friend", "bring family"],
+      "action": "answer",
+      "answer_source": "policies.companions",
+      "spoken_response": "A Personal Care Attendant rides free. Just let them know when you book your trip. You can also bring one guest who pays the same fare. Children under 6 ride free on your lap. To add a PCA to your card, call 800-827-0829."
+    },
+    {
+      "id": "app-help",
+      "patterns": ["app", "where's my ride app", "download app", "online booking", "Rider360", "website", "how to use app"],
+      "action": "answer",
+      "answer_source": "faqs.technology",
+      "spoken_response": "The Where's My Ride app is available for iPhone and Android. It lets you track your vehicle in real time. You can also book trips online through Rider360 at accessla.org. For help with the app, call 213-270-6099. For online reservation help, call 213-270-6185."
+    },
+    {
+      "id": "service-animal",
+      "patterns": ["service animal", "service dog", "guide dog", "bring my dog", "pet", "animal"],
+      "action": "answer",
+      "answer_source": "policies.service_animals",
+      "spoken_response": "Service animals are welcome and ride free. They don't need to be in a carrier, just stay on the vehicle floor. Non-service pets must be in a secured carrier. Mention your service animal when you make your reservation."
+    },
+    {
+      "id": "lost-found",
+      "patterns": ["lost something", "left something", "forgot bag", "lost item", "lost and found"],
+      "action": "transfer",
+      "transfer_to": "reservations",
+      "transfer_option": "Select region, then Option 2",
+      "spoken_response": "Let me transfer you to Lost and Found. Call 800-883-1295, select your region, then press 2. They're available 8 AM to 5 PM. Items are kept for 60 days."
+    },
+    {
+      "id": "language-help",
+      "patterns": ["Spanish", "other language", "translator", "don't speak English", "need interpreter", "habla espanol"],
+      "action": "answer",
+      "answer_source": "policies.language_access",
+      "spoken_response": "We offer translation services in many languages. When you call Reservations or Customer Service, just let the agent know which language you prefer. They'll connect you with a translator. Our eligibility evaluations are available in English and Spanish, with sign language interpretation on request."
+    },
+    {
+      "id": "employment",
+      "patterns": ["job", "hiring", "work for access", "employment", "career", "driver job", "apply for job"],
+      "action": "answer",
+      "answer_source": "faqs.employment",
+      "spoken_response": "For Access Services staff positions, apply online at governmentjobs.com/careers/accessla. For driver and dispatch roles, those are through our regional contractors. Which area are you in? I can give you the right contact number."
+    },
+    {
+      "id": "standing-order",
+      "patterns": ["standing order", "recurring trip", "regular ride", "same trip every day", "schedule repeat"],
+      "action": "answer_then_transfer",
+      "answer_source": "policies.booking.standing_orders",
+      "transfer_to": "reservations",
+      "transfer_option": "Option 3",
+      "spoken_response": "A standing order is for trips you take on a regular schedule. You need a 6-week minimum commitment. Call Reservations at 800-883-1295 and select Option 3 after choosing your region. Would you like me to transfer you?"
+    },
+    {
+      "id": "renewal",
+      "patterns": ["renew", "renewal", "expiring", "my card is expiring", "eligibility expiring"],
+      "action": "answer_then_transfer",
+      "answer_source": "policies.eligibility.renewal",
+      "transfer_to": "cs-main",
+      "transfer_option": "Option 3",
+      "spoken_response": "Renewal information is mailed 60 days before your eligibility expires. If you haven't received yours, let me transfer you to Customer Service. Select Option 3 for Eligibility when you're connected."
+    },
+    {
+      "id": "what-region",
+      "patterns": ["what region", "which region", "my region", "what area am I", "I live in", "I'm in", "where am I"],
+      "action": "answer",
+      "answer_source": "service-regions.city_to_region_mapping",
+      "spoken_response": "I can help you figure out your region. What city or neighborhood are you in?"
+    },
+    {
+      "id": "other-transport",
+      "patterns": ["other transportation", "other options", "alternatives", "besides access", "dial a ride", "other ways to get around", "what else", "metro micro"],
+      "action": "answer",
+      "answer_source": "transit-resources.mobility_management",
+      "spoken_response": "There are many options. Your Access card lets you ride most buses and trains free through the Free Fare Program. There's also Metro Micro, local dial-a-ride, and over 200 providers in the county. Our Mobility Management team at 800-431-7882 can help match you with the best option."
+    },
+    {
+      "id": "neighboring-county",
+      "patterns": ["orange county", "san bernardino", "ventura", "riverside", "san diego", "other county", "neighboring county", "travel outside LA"],
+      "action": "answer",
+      "answer_source": "transit-resources.neighboring_county_paratransit",
+      "spoken_response": "You can use paratransit in neighboring counties as a visitor for up to 21 days per year. Call us at 800-827-0829 at least two days before your trip so we can send your eligibility to the other county. Which county are you looking to travel to?"
+    },
+    {
+      "id": "stands",
+      "patterns": ["stand", "pickup stand", "designated location", "stand directory", "popular locations", "airport", "LAX", "hospital", "university", "stadium"],
+      "action": "answer",
+      "answer_source": "transit-resources.designated_stands",
+      "spoken_response": "We have 47 designated pickup and drop-off stands at popular locations like hospitals, airports, colleges, and entertainment venues. You can specify a stand when booking your trip. The full directory is on our website. Would you like to know about a specific location?"
+    },
+    {
+      "id": "holiday-service",
+      "patterns": ["holiday", "thanksgiving", "christmas", "new year", "memorial day", "labor day", "open on holiday", "service on holiday"],
+      "action": "answer",
+      "answer_source": "policies.holiday_schedule",
+      "spoken_response": "Service varies by region on holidays. Most regions still offer service, but standing orders are cancelled on holidays. Santa Clarita and the Antelope Valley have more limited holiday schedules. Call Reservations at 800-883-1295 to check availability for your specific region and date."
+    },
+    {
+      "id": "update-info",
+      "patterns": ["change address", "update phone", "new address", "moved", "change my information", "update account"],
+      "action": "transfer",
+      "transfer_to": "cs-main",
+      "spoken_response": "I can help you with that. Let me transfer you to Customer Service so they can update your information. It's important to keep your details current for renewal notices and ride notifications."
+    },
+    {
+      "id": "dialysis",
+      "patterns": ["dialysis", "recurring medical", "regular appointment", "same trip every week"],
+      "action": "answer_then_transfer",
+      "answer_source": "policies.booking.standing_orders",
+      "transfer_to": "reservations",
+      "transfer_option": "Option 3",
+      "spoken_response": "Dialysis and other recurring medical trips are perfect for a standing order. Your trips get automatically scheduled each week. Call Reservations at 800-883-1295 and select your region, then press 3 for standing orders. Would you like me to transfer you?"
+    },
+    {
+      "id": "return-trip",
+      "patterns": ["return trip", "ride home", "ride back", "no return", "forgot return", "need to get home"],
+      "action": "answer_then_transfer",
+      "answer_source": "policies.booking",
+      "transfer_to": "reservations",
+      "spoken_response": "Return trips aren't automatically scheduled. You need to request them when you book. If you need to add a return trip now, let me transfer you to Reservations."
+    }
+  ],
+  "fallback": {
+    "action": "transfer",
+    "transfer_to": "cs-main",
+    "spoken_response": "I want to make sure you get the help you need. Let me connect you with one of our Customer Service representatives. They're available Monday through Friday, 8 AM to 5 PM."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "description": "Rules for when the AI phone agent should escalate to a human agent. Prioritize rider safety and satisfaction.",
+  "escalation_triggers": [
+    {
+      "id": "angry-caller",
+      "condition": "Caller is upset, raising voice, using profanity, or expressing extreme frustration",
+      "action": "empathize_then_transfer",
+      "transfer_to": "cs-main",
+      "spoken_response": "I completely understand your frustration, and I'm sorry for the difficulty you're experiencing. Let me connect you with a Customer Service representative who can help resolve this for you right away.",
+      "priority": "high"
+    },
+    {
+      "id": "medical-emergency",
+      "condition": "Caller mentions a medical emergency, health crisis, or safety threat",
+      "action": "direct_to_911",
+      "spoken_response": "If you're having a medical emergency, please hang up and call 911 right away. They can get you help immediately. Our Operations Center is not equipped for medical emergencies.",
+      "priority": "critical"
+    },
+    {
+      "id": "safety-concern",
+      "condition": "Caller reports feeling unsafe, threatened by a driver, or witnessing dangerous behavior",
+      "action": "transfer_urgent",
+      "transfer_to": "omc",
+      "spoken_response": "Your safety is our top priority. Let me connect you with our Operations Center right away so they can address this immediately.",
+      "priority": "critical"
+    },
+    {
+      "id": "account-specific",
+      "condition": "Caller asks about their specific account details, trip history, payment balance, or eligibility status",
+      "action": "transfer",
+      "transfer_to": "cs-main",
+      "spoken_response": "I don't have access to individual account information, but Customer Service can help you with that. Let me transfer you now.",
+      "priority": "normal"
+    },
+    {
+      "id": "repeated-confusion",
+      "condition": "Caller has asked the same question twice or AI has failed to understand the request after 2 attempts",
+      "action": "transfer",
+      "transfer_to": "cs-main",
+      "spoken_response": "I want to make sure you get the right help. Let me connect you with a Customer Service representative who can assist you directly.",
+      "priority": "normal"
+    },
+    {
+      "id": "complex-complaint",
+      "condition": "Caller describes a multi-issue complaint, potential discrimination, or wants to speak to a supervisor",
+      "action": "transfer",
+      "transfer_to": "cs-main",
+      "spoken_response": "I want to make sure your concerns are properly documented and addressed. Let me connect you with our Customer Service team.",
+      "priority": "high"
+    },
+    {
+      "id": "suspension-dispute",
+      "condition": "Caller says they've been suspended and wants to dispute it or file an appeal",
+      "action": "answer_then_transfer",
+      "answer": "You have the right to appeal a suspension.",
+      "transfer_to": "cs-main",
+      "spoken_response": "You have the right to appeal any suspension. Let me transfer you to Customer Service so they can walk you through the appeal process.",
+      "priority": "high"
+    },
+    {
+      "id": "billing-dispute",
+      "condition": "Caller disputes a charge, overcharge, or payment issue",
+      "action": "transfer",
+      "transfer_to": "cs-main",
+      "spoken_response": "I'll connect you with Customer Service so they can review your account and resolve the billing concern.",
+      "priority": "normal"
+    },
+    {
+      "id": "ada-violation",
+      "condition": "Caller reports what they believe is an ADA violation or discrimination",
+      "action": "transfer",
+      "transfer_to": "ada-coordinator",
+      "spoken_response": "I take this very seriously. Let me connect you with our ADA Coordinator at 213-270-6000. They handle discrimination and ADA compliance concerns. You can also email adacoordinator@accessla.org.",
+      "priority": "high"
+    },
+    {
+      "id": "request-human",
+      "condition": "Caller explicitly asks to speak to a person, human, agent, or representative",
+      "action": "transfer",
+      "transfer_to": "cs-main",
+      "spoken_response": "Of course. Let me connect you with a Customer Service representative right away.",
+      "priority": "immediate"
+    }
+  ],
+  "general_rules": {
+    "max_ai_turns_before_offer_human": 4,
+    "always_offer_human_option": "After providing an answer, always ask if the caller would like to speak with a representative or if there's anything else you can help with.",
+    "never_argue": "Never argue with a caller or insist the AI can handle something the caller wants a human for.",
+    "empathy_first": "Always acknowledge the caller's feelings before transferring or providing information.",
+    "hours_awareness": "If transferring to Customer Service outside of hours (M-F 8-5), inform the caller and suggest calling back or using the OMC (24/7) for trip-related issues."
+  }
+}

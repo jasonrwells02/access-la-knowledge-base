@@ -1,0 +1,111 @@
+{
+  "id": "access-services",
+  "type": "Organization",
+  "name": "Access Services",
+  "legal_name": "Access Services, Incorporated",
+  "abbreviation": "ASI",
+  "role": "Consolidated Transportation Services Agency (CTSA)",
+  "jurisdiction": "Los Angeles County",
+  "description": "Administers ADA complementary paratransit services for 46 fixed-route transit operators in Los Angeles County. Provides curb-to-curb, shared-ride transportation for people with disabilities who cannot use fixed-route public transit.",
+  "service_type": "ADA Complementary Paratransit",
+  "service_model": "Curb-to-curb shared-ride",
+  "legal_authority": "42 U.S.C. Section 12143",
+  "stats": {
+    "service_area_sq_miles": 1950,
+    "registered_riders": 115000,
+    "annual_trips": 3400000,
+    "member_agencies": 44,
+    "service_regions": 6,
+    "fixed_route_operators": 46,
+    "service_area_extends_into": ["San Bernardino County", "Orange County", "Ventura County"]
+  },
+  "service_coverage": {
+    "primary": "Within 3/4 mile of fixed-route bus lines and METRO Rail stations in Los Angeles County",
+    "extensions": "Extends into portions of San Bernardino, Orange, and Ventura counties served by LA County bus lines",
+    "exclusions": "Does not serve commuter rail or commuter bus routes",
+    "geography": "From Lancaster to Long Beach, Malibu to Montclair"
+  },
+  "service_hours": {
+    "regular": "4:00 AM to 12:00 AM daily",
+    "limited": "12:00 AM to 4:00 AM (limited service)",
+    "note": "24 hours in most Los Angeles County areas"
+  },
+  "funding_sources": [
+    {
+      "name": "Proposition C",
+      "type": "Sales tax (0.5% discretionary funds)"
+    },
+    {
+      "name": "Federal Section 5310 grants",
+      "type": "Federal grant"
+    },
+    {
+      "name": "Fare-box revenue",
+      "type": "Operating revenue"
+    }
+  ],
+  "governance": {
+    "board_size": 9,
+    "board_appointed_by": [
+      "County Board of Supervisors",
+      "City Selection Committee",
+      "City of Los Angeles Mayor's Office",
+      "Los Angeles Municipal Operators",
+      "Los Angeles Local Operators",
+      "LA County Commission on Disabilities",
+      "LA County Independent Living Centers Collaboration",
+      "LA County Metropolitan Transportation Authority"
+    ]
+  },
+  "fleet": {
+    "vehicle_types": ["Small buses", "Mini-vans", "Taxis"],
+    "ownership": "Fleet leased to regional providers at $1/month",
+    "note": "Access generally provides the majority of vehicles needed by transportation service contractors"
+  },
+  "addresses": {
+    "mailing": {
+      "street": "PO Box 5728",
+      "city": "El Monte",
+      "state": "CA",
+      "zip": "91734"
+    },
+    "physical": {
+      "street": "3449 Santa Anita Ave",
+      "city": "El Monte",
+      "state": "CA",
+      "zip": "91731",
+      "floor": "3rd Floor"
+    }
+  },
+  "website": "https://accessla.org",
+  "portals": {
+    "rider360": "https://wmr.accessla.org",
+    "booking": "https://booking.accessla.org",
+    "eligibility": "https://eligibility.accessla.org",
+    "careers": "https://governmentjobs.com/careers/accessla",
+    "youtube": "https://www.youtube.com/@accesslosangeles5359"
+  },
+  "ctsa_functions": {
+    "description": "Created by Assembly Bill 120 in 1979 to coordinate social service transportation",
+    "activities": [
+      "Information and technical assistance to LA County specialized transportation providers",
+      "Learning and Development Program for transit professionals",
+      "Legislative collaboration with CalACT",
+      "Participation in Metro LTSS and BOS planning meetings",
+      "Technical assistance for Section 5310, 5316 (JARC), and 5317 (New Freedom) grants",
+      "Coordinated Action Plan development for SCAG"
+    ]
+  },
+  "regulatory_compliance": [
+    "ADA (Americans with Disabilities Act of 1990)",
+    "Title VI (Civil Rights Act of 1964)",
+    "Section 504 (Vocational Rehabilitation Act of 1973)",
+    "Civil Rights Restoration Act of 1987"
+  ],
+  "emergency_preparedness": {
+    "framework": "National Incident Management System (NIMS) and Incident Command System (ICS)",
+    "coordination": ["Metro", "LA County Emergency Operations Center"],
+    "capabilities": ["Emergency Operations Center activation", "Two-way radio", "Mass notification systems"],
+    "covid_response": "Delivered over 430,000 meals during pandemic, facilitated vaccination transportation"
+  }
+}

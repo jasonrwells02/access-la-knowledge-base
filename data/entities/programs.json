@@ -1,0 +1,215 @@
+{
+  "programs": [
+    {
+      "id": "access-to-work",
+      "name": "Access to Work (ATW)",
+      "description": "Standing order service for customers commuting to employment or job training sites. Trips are scheduled based on work start times so customers arrive on time.",
+      "eligibility": "Must use the program exclusively for travel to/from employment or job training. Must maintain a consistent weekly schedule.",
+      "not_suitable_for": "Persons with schedules that are different from day to day and week to week are better served by regular Next Day Access trips.",
+      "benefits": [
+        "Trips scheduled to work start times for on-time arrival",
+        "Flexible modifications if work hours change (contact Standing Order department, no reapplication needed)",
+        "Standing Order service (no daily calling required)"
+      ],
+      "fare": "Standard Access fare",
+      "enrollment": "Download application from accessla.org (English/Spanish) and submit",
+      "contact": {
+        "phone": "213-270-6000",
+        "name": "Access Customer Service"
+      },
+      "keywords": ["work", "employment", "job", "commute", "job training", "standing order"]
+    },
+    {
+      "id": "beyond-the-curb",
+      "name": "Beyond the Curb (BTC)",
+      "description": "Origin-to-destination assistance where the driver accompanies the rider up to 60 feet from the vehicle. Available as a reasonable modification for riders who cannot navigate from curb to their destination independently.",
+      "eligibility": "Riders whose disability prevents them from using curb-to-curb paratransit for a specific trip. New applicants evaluated during initial eligibility screening. Existing customers apply via Reasonable Modification Request Form.",
+      "how_to_request": [
+        "Request during trip reservation (for approved riders)",
+        "Call 800-827-0829, press #6 to request a Reasonable Modification Form",
+        "Email RMC@accessla.org",
+        "Grace period: current customers can request during reservations while applications are under review"
+      ],
+      "scope": {
+        "distance": "Up to 60 feet from vehicle",
+        "driver_requirement": "Driver must maintain visual contact with vehicle",
+        "max_dwell_time": "5 minutes"
+      },
+      "limitations": [
+        "Driver cannot enter buildings, residences, or private doors",
+        "Cannot assist with oversized packages",
+        "Cannot help beyond ground-floor levels",
+        "Not available in alleys, driveways, or gated communities",
+        "Driver may refuse if deemed unsafe"
+      ],
+      "important_note": "Access is not a medical transportation service. Customers needing help beyond BTC should bring a Personal Care Attendant (rides free).",
+      "fare": "Standard Access fare (no additional charge)",
+      "keywords": ["door to door", "assistance", "help walking", "escort", "curb", "origin to destination", "can't walk"]
+    },
+    {
+      "id": "free-fare",
+      "name": "Free Fare Program",
+      "description": "Certified Access riders can ride most fixed-route bus and rail systems in LA County for free using their green Access Rider ID Card as a TAP card.",
+      "eligibility": "All certified Access riders. No registration required. Does not affect paratransit eligibility.",
+      "how_to_use": "Present your green Access Rider ID Card to the TAP validator when boarding. Some agencies require showing the card to the driver.",
+      "participating_operators": 23,
+      "participating_operators_list": [
+        {"name": "Antelope Valley Transit Authority", "phone": "661-945-9445", "pca_charged": false},
+        {"name": "Beach Cities Transit", "phone": "310-937-6660", "pca_charged": true},
+        {"name": "Carson Transit", "phone": "310-225-2545", "pca_charged": false},
+        {"name": "Culver City Bus", "phone": "310-253-6500", "pca_charged": true},
+        {"name": "Downey LINK", "phone": "562-529-5465", "pca_charged": false},
+        {"name": "El Monte Trolley Company", "phone": "626-943-1200", "pca_charged": true},
+        {"name": "Foothill Transit", "phone": "800-743-3463", "pca_charged": false},
+        {"name": "Gardena Municipal Bus Line", "phone": "310-965-8888", "pca_charged": true},
+        {"name": "Glendale Beeline", "phone": "818-548-3960", "pca_charged": false},
+        {"name": "Huntington Park COMBI", "phone": "323-589-7100", "pca_charged": false},
+        {"name": "LADOT DASH and Commuter Express", "phone": "818-808-2273", "pca_charged": true},
+        {"name": "Long Beach Transit", "phone": "562-591-2301", "pca_charged": true},
+        {"name": "Metro Bus and Metro Rail", "phone": "323-466-3876", "pca_charged": false},
+        {"name": "Metrolink", "phone": "800-371-5465", "pca_charged": false},
+        {"name": "Montebello Bus Lines", "phone": "323-558-1625", "pca_charged": true},
+        {"name": "Monterey Park Spirit Bus", "phone": "626-307-7842", "pca_charged": false},
+        {"name": "Norwalk Transit", "phone": "562-929-5550", "pca_charged": false},
+        {"name": "Palos Verdes Peninsula Transit Authority", "phone": "310-544-7108", "pca_charged": false},
+        {"name": "Pasadena Transit", "phone": "626-744-4055", "pca_charged": false},
+        {"name": "Santa Clarita Transit", "phone": "661-294-1287", "pca_charged": true},
+        {"name": "Santa Monica's Big Blue Bus", "phone": "310-451-5444", "pca_charged": false},
+        {"name": "Torrance Transit", "phone": "310-618-6266", "pca_charged": false},
+        {"name": "West Hollywood Transit", "phone": "800-447-2189", "pca_charged": false}
+      ],
+      "pca_note": "The following systems charge fares for Personal Care Attendants: Beach Cities Transit, Culver City Bus, El Monte Trolley, Gardena Municipal Bus Line, LADOT DASH/Commuter Express, Long Beach Transit, Montebello Bus Lines, and Santa Clarita Transit.",
+      "metrolink_free_segments": [
+        "Antelope Valley Line: to Lancaster",
+        "San Bernardino Line: to Claremont",
+        "Ventura County Line: to Chatsworth",
+        "Orange County/91 Line: to Norwalk/Santa Fe Springs",
+        "Riverside Line: to Downtown Pomona"
+      ],
+      "metrolink_note": "Requires reduced-rate ticket for out-of-county segments. Wheelchair users board at access ramp (top of platform), lower-level cars only.",
+      "fare": "Free",
+      "keywords": ["free", "TAP card", "bus", "rail", "fixed route", "free ride", "metro", "train"]
+    },
+    {
+      "id": "parents-with-disabilities",
+      "name": "Parents with Disabilities Program (PWD)",
+      "description": "Assists Access-certified parents/guardians of children age 16 and younger with reliable transportation to and from school and school-related activities.",
+      "eligibility": "Access-certified riders who are parents or guardians of children 16 and younger",
+      "benefits": [
+        "Trip pickup times based on school schedule to prevent tardiness",
+        "Linked trips: parent stays aboard after drop-off/pick-up to reach next destination",
+        "Minimum 30-minute intervals between same-day trips for school escort time",
+        "Up to 4 one-way same-day emergency trips monthly (9 AM to 7 PM)",
+        "Service hours: 6 AM to 9 PM, 7 days a week"
+      ],
+      "fare": 2.00,
+      "fare_note": "$2.00 one way (reduced fare)",
+      "eligible_trips": "School and school-sponsored activities only",
+      "enrollment": {
+        "application": "Download from accessla.org (English/Spanish)",
+        "mail": "Access Services, Parents with Disabilities Program, PO Box 5728, El Monte, CA 91734-1728",
+        "fax": "213-270-6055 (Attn: Eric Haack)"
+      },
+      "contact": {
+        "phone": "213-270-6000",
+        "staff": "Eric Haack"
+      },
+      "keywords": ["parent", "child", "children", "school", "kids", "guardian", "student"]
+    },
+    {
+      "id": "travel-training",
+      "name": "Travel Training",
+      "description": "Free one-on-one individualized training that gives people with disabilities the skills required to travel safely on fixed-route public transportation.",
+      "eligibility": "All individuals who have completed the Access Services eligibility process. Participation does not affect your eligibility status.",
+      "skills_taught": [
+        "Schedule interpretation for buses and trains",
+        "Fare payment methods",
+        "Boarding and exiting procedures",
+        "Transfer techniques",
+        "Signaling drivers for stops or assistance",
+        "Wheelchair and mobility device securing",
+        "Safety awareness and decision-making",
+        "Life skills management",
+        "Handling service disruptions",
+        "Social and communication skills"
+      ],
+      "provider": {
+        "name": "Mobility Management Partners (MMP)",
+        "established": 1991,
+        "training_since": 1994,
+        "phone": "888-667-7003",
+        "email": "info@mobilitymp.org"
+      },
+      "cost": "Free (complimentary service)",
+      "enrollment": "Download Travel Training Application from accessla.org, submit via email, fax, or mail to MMP",
+      "keywords": ["training", "learn", "bus", "independence", "fixed route", "travel", "transit"]
+    },
+    {
+      "id": "reasonable-modification",
+      "name": "Reasonable Modification",
+      "description": "A modification to Access policies, practices, or procedures requested by an eligible customer to ensure they can use the paratransit system.",
+      "examples": [
+        "Beyond the Curb service adjustments",
+        "Policy or procedure modifications for specific disability needs"
+      ],
+      "how_to_request": [
+        "Call Customer Service at 800-827-0829, press #6",
+        "Download Reasonable Modification Request Form from accessla.org",
+        "Contact Reasonable Modification Coordinator at 213-270-6159",
+        "Email RMC@accessla.org"
+      ],
+      "denial_criteria": [
+        "Would fundamentally alter the nature of Access services, programs, or activities",
+        "Would create a direct threat to health or safety of others",
+        "Customer can fully use services without the modification",
+        "Would cause unreasonable financial or administrative burden"
+      ],
+      "complaint_process": "File with Reasonable Modification Coordinator using same contact methods. Access reviews and responds within 14 calendar days.",
+      "contact": {
+        "name": "Torrance Johnson",
+        "title": "Reasonable Modification Coordinator",
+        "phone": "213-270-6159",
+        "fax": "213-270-6057",
+        "email": "RMC@accessla.org",
+        "mail": "Access Services, ATTN: RMC, PO Box 5728, El Monte, CA 91734"
+      },
+      "keywords": ["modification", "accommodation", "exception", "special request", "disability", "policy change"]
+    },
+    {
+      "id": "visitor",
+      "name": "Visitor Program",
+      "description": "ADA paratransit service for visitors from outside Los Angeles County who cannot use accessible fixed-route transit due to disability-related functional limitations.",
+      "eligibility": [
+        "Unable to use accessible fixed-route due to disability-related functional limitations",
+        "OR present ADA paratransit eligibility documentation from outside LA County",
+        "OR provide out-of-county residence proof and disability documentation"
+      ],
+      "duration": "Up to 21 days within one calendar year (365 days from first trip). Travel days do not have to be consecutive.",
+      "reapplication": "After one-year expiration, visitor may reapply for another 21 days.",
+      "exceeding_21_days": "FTA regulations limit visitor paratransit to 21 days per calendar year. For longer stays, apply for local eligibility.",
+      "registration": {
+        "documents_needed": "Proof of eligibility from local paratransit provider OR proof of address outside LA County with disability documentation from medical provider",
+        "submit_via": {
+          "fax": "213-270-6057",
+          "mail": "Access Services Customer Relations, PO Box 5728, El Monte, CA 91734",
+          "email": "cserv@accessla.org"
+        },
+        "processing_time": "Within one business day from receipt"
+      },
+      "service_details": {
+        "type": "Curb-to-curb, shared-ride service",
+        "fares": "$2.75 (under 20 miles) or $3.50 (20+ miles)",
+        "companions": "Up to two individuals. PCA rides free, guests pay regular fare.",
+        "children": "Free for ages 6 and under. Car seats required by law until age 8 or 4'9\" tall.",
+        "luggage": "Maximum two large grocery bags (25 pounds total per rider)"
+      },
+      "reservations": {
+        "phone": "800-827-0829 (Option 6) or 213-488-1748",
+        "hours": "Monday through Friday, 8:00 AM to 5:00 PM PDT",
+        "next_day_booking": "877-883-1295, 6:00 AM to 10:00 PM PDT"
+      },
+      "inter_county_travel": "Request Access send eligibility details to another county by calling 800-827-0829. Make request at least two days in advance. Paratransit providers allow up to 21 days per calendar year as visitors.",
+      "keywords": ["visitor", "visiting", "out of town", "tourist", "temporary", "from another city", "not from LA"]
+    }
+  ]
+}

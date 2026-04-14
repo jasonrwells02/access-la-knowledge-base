@@ -1,0 +1,210 @@
+{
+  "contacts": [
+    {
+      "id": "cs-main",
+      "name": "Customer Service",
+      "phone": "800-827-0829",
+      "hours": "Monday through Friday, 8:00 AM to 5:00 PM",
+      "email": "cserv@accessla.org",
+      "purpose": "General inquiries, complaints, compliments, account questions, eligibility, card replacement, coupon orders",
+      "phone_menu": {
+        "option_1": "Reservations",
+        "option_2": "Operations Monitoring Center",
+        "option_3": "Eligibility",
+        "option_4": "ID Card",
+        "option_5": "Reasonable Modification",
+        "option_6": "Visitor Program"
+      },
+      "is_default_route": true
+    },
+    {
+      "id": "reservations",
+      "name": "Reservations",
+      "phone": "800-883-1295",
+      "phone_out_of_state": "213-488-1748",
+      "hours": "6:00 AM to 10:00 PM, 7 days a week",
+      "purpose": "Book trips, modify reservations, cancel trips, request standing orders, check on trips",
+      "note": "Select your region after calling, then choose option for your need",
+      "is_default_route": false
+    },
+    {
+      "id": "tdd-cs",
+      "name": "TDD Customer Service",
+      "phone": "800-827-1359",
+      "hours": "Monday through Friday, 8:00 AM to 5:00 PM",
+      "purpose": "Customer service for deaf and hard-of-hearing callers using TDD/TTY devices",
+      "accessibility": "TDD/TTY"
+    },
+    {
+      "id": "tdd-reservations",
+      "name": "TDD Reservations",
+      "phone": "800-826-7280",
+      "hours": "6:00 AM to 10:00 PM, 7 days a week",
+      "purpose": "Trip reservations for deaf and hard-of-hearing callers using TDD/TTY devices",
+      "accessibility": "TDD/TTY"
+    },
+    {
+      "id": "omc",
+      "name": "Operations Monitoring Center (OMC)",
+      "phone": "800-827-0829",
+      "phone_option": "Option 2",
+      "hours": "24 hours a day, 7 days a week, including holidays",
+      "purpose": "Real-time trip issues: late vehicles, missed connections, ETAs, same-day emergencies, serious service disruptions",
+      "capabilities": [
+        "Request Estimated Time of Arrival (available 15 minutes before pickup)",
+        "Missed connection/transfer issues",
+        "No-show trip reporting",
+        "Serious service disruptions requiring immediate response",
+        "Secure alternate Access vehicle or backup provider"
+      ],
+      "cannot_help_with": [
+        "Eligibility questions",
+        "Card replacement",
+        "Coupon orders",
+        "Service tickets",
+        "Procedure concerns",
+        "Travel time issues"
+      ]
+    },
+    {
+      "id": "text-trip",
+      "name": "Trip Status via Text",
+      "phone": "800-827-4588",
+      "method": "Text the word 'TRIP' to this number",
+      "purpose": "Check trip status, get ETA updates, report missed trips via SMS",
+      "note": "Standard text messaging rates apply. Messages answered in order received."
+    },
+    {
+      "id": "wmr-hotline",
+      "name": "Where's My Ride Hotline",
+      "phone": "213-270-6099",
+      "purpose": "Help with the Where's My Ride app and vehicle tracking"
+    },
+    {
+      "id": "online-res-support",
+      "name": "Online Reservations Support",
+      "phone": "213-270-6185",
+      "email": "onlinereservations@accessla.org",
+      "purpose": "Help with online booking system, Rider360 portal, technical issues"
+    },
+    {
+      "id": "eligibility-eval",
+      "name": "Eligibility Evaluation Scheduling",
+      "phone": "626-532-1616",
+      "tdd": "626-532-1620",
+      "purpose": "Schedule your in-person transit evaluation after receiving your Access ID number",
+      "note": "Call 3 days after online application or 7 days after mailing application"
+    },
+    {
+      "id": "rmc",
+      "name": "Reasonable Modification Coordinator",
+      "phone": "213-270-6159",
+      "fax": "213-270-6057",
+      "email": "RMC@accessla.org",
+      "purpose": "Request reasonable modifications to Access policies and practices to accommodate disability",
+      "staff": "Torrance Johnson",
+      "mail": "Access Services, ATTN: RMC, PO Box 5728, El Monte, CA 91734"
+    },
+    {
+      "id": "ada-coordinator",
+      "name": "ADA Coordinator",
+      "phone": "213-270-6000",
+      "email": "adacoordinator@accessla.org",
+      "purpose": "ADA compliance issues, nondiscrimination inquiries, formal ADA complaints, Title VI complaints",
+      "mail": "Access Services, Customer Relations ADA Coordinator, PO Box 5728, El Monte, CA 91734"
+    },
+    {
+      "id": "general-info",
+      "name": "General Information / Main Line",
+      "phone": "213-270-6000",
+      "purpose": "General agency inquiries, department connections"
+    },
+    {
+      "id": "infoline",
+      "name": "InfoLine",
+      "phone": "213-270-6110",
+      "hours": "24/7 recorded information",
+      "purpose": "Service announcements, meeting schedule updates, general information"
+    },
+    {
+      "id": "fax",
+      "name": "Fax",
+      "phone": "213-270-6057",
+      "method": "fax",
+      "purpose": "Send documents, applications, visitor documentation"
+    },
+    {
+      "id": "travel-training",
+      "name": "Travel Training (Mobility Management Partners)",
+      "phone": "888-667-7003",
+      "email": "info@mobilitymp.org",
+      "purpose": "Free one-on-one travel training to learn fixed-route public transit",
+      "operator": "Mobility Management Partners (MMP)",
+      "note": "Established 1991, providing travel training in California since 1994"
+    },
+    {
+      "id": "ride-info",
+      "name": "Ride Info / Transit Options",
+      "phone": "800-431-7882",
+      "tdd": "800-431-9731",
+      "email": "rideinfo@accessla.org",
+      "alternate_email": "TransitOptions@accessla.org",
+      "hours": "Monday through Friday, 8:00 AM to 5:00 PM",
+      "purpose": "Local transit service referrals, transit options counseling"
+    },
+    {
+      "id": "procurement",
+      "name": "Procurement and Contracts",
+      "phone": "213-270-6000",
+      "email": "purchasing@accessla.org",
+      "purpose": "Vendor inquiries, RFPs, procurement opportunities, contract administration"
+    },
+    {
+      "id": "cac-apply",
+      "name": "Community Advisory Committee Applications",
+      "email": "cserv@accessla.org",
+      "fax": "213-270-6055",
+      "mail": "Access Services, Attn: Community Advisory Committee, PO Box 5728, El Monte, CA 91734",
+      "purpose": "Apply to serve on the Community Advisory Committee"
+    },
+    {
+      "id": "parents-program",
+      "name": "Parents with Disabilities Program",
+      "phone": "213-270-6000",
+      "fax": "213-270-6055",
+      "purpose": "Enroll in the Parents with Disabilities Program for school trips",
+      "staff": "Eric Haack",
+      "mail": "Access Services, Parents with Disabilities Program, PO Box 5728, El Monte, CA 91734-1728"
+    },
+    {
+      "id": "metro",
+      "name": "Metro (LA County Metropolitan Transportation Authority)",
+      "phone": "323-466-3876",
+      "tdd": "800-252-9040",
+      "purpose": "Fixed-route bus and rail information, TAP card, trip planning",
+      "external": true
+    },
+    {
+      "id": "pasc",
+      "name": "Personal Assistance Services Council (PASC)",
+      "phone": "877-565-4477",
+      "purpose": "Help finding personal care aides for riders who need assistance beyond what drivers provide",
+      "external": true
+    },
+    {
+      "id": "fta-complaints",
+      "name": "Federal Transit Administration Civil Rights",
+      "phone": "888-446-4511",
+      "mail": "Federal Transit Administration, Office of Civil Rights, Attention: Complaint Team, East Building, 5th Floor TCR, 1200 New Jersey Ave SE, Washington, DC 20590",
+      "purpose": "Federal civil rights complaints about transit service discrimination",
+      "external": true
+    },
+    {
+      "id": "211",
+      "name": "211 Information Line",
+      "phone": "211",
+      "purpose": "Connect with local independent living centers or regional centers for advocacy assistance",
+      "external": true
+    }
+  ]
+}

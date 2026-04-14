@@ -1,0 +1,179 @@
+{
+  "mobility_management": {
+    "description": "Access Services operates a Mobility Management referral service that matches individuals' transportation needs with available options. Provides quick, accurate referrals to over 200 public and private accessible transportation providers in Los Angeles County.",
+    "phone": "800-431-7882",
+    "tdd": "800-431-9731",
+    "email": "rideinfo@accessla.org",
+    "alternate_email": "TransitOptions@accessla.org",
+    "hours": "Monday through Friday, 8:00 AM to 5:00 PM",
+    "providers_in_directory": 200,
+    "keywords": ["bus", "other transportation", "alternative", "dial a ride", "local transit", "what options", "other ways to get around"]
+  },
+  "neighboring_county_paratransit": {
+    "description": "ADA paratransit services in counties bordering Los Angeles County. Access riders can use these services as visitors for up to 21 days per calendar year. Call Access at 800-827-0829 at least two days in advance to transfer eligibility.",
+    "counties": [
+      {
+        "county": "Orange County",
+        "services": [
+          {
+            "name": "OCTA Access Paratransit",
+            "phone": "714-560-5956",
+            "address": "550 S. Main Street, Orange, CA 92868",
+            "website": "octa.net"
+          },
+          {
+            "name": "Anaheim Senior on Wheels Program",
+            "phone": "714-765-4510",
+            "address": "250 E. Center Street, Anaheim, CA 92805"
+          }
+        ]
+      },
+      {
+        "county": "San Bernardino County",
+        "services": [
+          {
+            "name": "Omnitrans Access Paratransit",
+            "phone": "800-966-6428",
+            "locations": [
+              {"area": "East Valley", "address": "1700 W. Fifth Street, San Bernardino, CA 92411", "phone": "909-383-1680"},
+              {"area": "West Valley", "address": "4748 Arrow Highway, Montclair, CA 91763", "phone": "800-990-2404"}
+            ],
+            "website": "omnitrans.org"
+          }
+        ]
+      },
+      {
+        "county": "Ventura County",
+        "services": [
+          {
+            "name": "Gold Coast Transit Access Paratransit",
+            "phone": "888-667-7001",
+            "alternate_phones": ["800-448-6133", "805-487-4222", "805-643-3158"],
+            "address": "4036 Adolfo Road, Camarillo, CA 93012",
+            "website": "goldcoasttransit.org"
+          },
+          {
+            "name": "VISTA (Ventura Intercity Service Transit Authority)",
+            "phone": "805-933-2267",
+            "address": "950 County Square Drive, Suite 207, Ventura, CA 93003"
+          },
+          {
+            "name": "Thousand Oaks ADA Paratransit",
+            "phone": "805-375-5467",
+            "address": "2100 Thousand Oaks Boulevard, Thousand Oaks, CA 91362"
+          }
+        ]
+      },
+      {
+        "county": "Riverside County",
+        "services": [
+          {
+            "name": "RTA (Riverside Transit Agency) Dial-A-Ride",
+            "phone": "800-795-7887",
+            "address": "PO Box 59968, Riverside, CA 92517",
+            "website": "riversidetransit.com"
+          }
+        ]
+      },
+      {
+        "county": "San Diego County (Northern)",
+        "services": [
+          {
+            "name": "North County Transit District (NCTD LIFT)",
+            "phone": "760-966-6500",
+            "address": "810 Mission Avenue, Oceanside, CA 92054",
+            "website": "gonctd.com"
+          },
+          {
+            "name": "San Diego MTS Access",
+            "website": "sdmts.com"
+          }
+        ]
+      }
+    ]
+  },
+  "designated_stands": {
+    "description": "Access Services operates 47 designated pick-up and drop-off stands at popular locations, similar to bus stops. These are pre-set locations along common routes where riders can be picked up or dropped off.",
+    "total_count": 47,
+    "how_to_use": "When making a reservation, you can specify a designated stand as your pick-up or drop-off point. The reservationist can help you identify the nearest stand.",
+    "categories": {
+      "educational_institutions": [
+        "Cal State University Los Angeles",
+        "Cal Poly Pomona",
+        "Cal State Northridge",
+        "Cal State Long Beach",
+        "Cerritos College",
+        "Glendale Community College",
+        "Los Angeles City College",
+        "Santa Monica College"
+      ],
+      "medical_facilities": [
+        "Cedars-Sinai Medical Center",
+        "Rancho Los Amigos National Rehabilitation Center",
+        "Olive View Medical Center",
+        "VA Hospital Long Beach",
+        "VA Hospital North Hills",
+        "VA Hospital West Los Angeles"
+      ],
+      "transportation_hubs": [
+        "LAX (Los Angeles International Airport)",
+        "Long Beach Airport",
+        "El Monte Bus Station",
+        "Union Station"
+      ],
+      "entertainment_venues": [
+        "Crypto.com Arena",
+        "Dodger Stadium",
+        "SoFi Stadium",
+        "Universal Studios",
+        "Greek Theater"
+      ],
+      "other_locations": [
+        "Aquarium of the Pacific",
+        "Brea Mall",
+        "Harbor Occupational Center",
+        "Various community centers and colleges throughout LA County"
+      ]
+    },
+    "note": "Full interactive directory available at accessla.org under Stand Directory. Riders can search by facility name."
+  },
+  "regional_fixed_route_agencies": {
+    "description": "Fixed-route (bus and rail) agencies within Los Angeles County. Access riders can use most of these for free through the Free Fare Program.",
+    "agencies": [
+      "Alhambra Community Transit",
+      "Antelope Valley Transit Authority",
+      "Baldwin Park Transit",
+      "Beach Cities Transit",
+      "Bellflower Bus",
+      "BurbankBus",
+      "Carson Circuit",
+      "City of Commerce Municipal Bus",
+      "Culver CityBus",
+      "Downey Link",
+      "Duarte Transit",
+      "Foothill Transit",
+      "Gardena Transit",
+      "Glendale Beeline",
+      "LADOT (DASH and Commuter Express)",
+      "Long Beach Transit",
+      "Metro Bus and Metro Rail",
+      "Metro Accessibility Services",
+      "Metro Micro (on-demand rideshare)",
+      "Metrolink",
+      "Montebello Municipal Bus Lines",
+      "Norwalk Transit System",
+      "Palos Verdes Peninsula Transit Authority",
+      "Pasadena Area Rapid Transit System (ARTS)",
+      "Santa Clarita Transit",
+      "Santa Monica Big Blue Bus",
+      "Torrance Transit"
+    ],
+    "note": "For specific route and schedule information, contact Metro at 323-466-3876 or the individual agency. Access Mobility Management at 800-431-7882 can help match you with the right service."
+  },
+  "metro_micro": {
+    "description": "Metro Micro is an on-demand shared rideshare service operated by Metro. It is a newer service available in select zones throughout LA County.",
+    "operator": "LA County Metropolitan Transportation Authority (Metro)",
+    "phone": "323-466-3876",
+    "note": "Check with Metro for current service zones and availability."
+  }
+}

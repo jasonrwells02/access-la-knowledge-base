@@ -1,0 +1,452 @@
+{
+  "faqs": [
+    {
+      "id": "eligibility-001",
+      "category": "eligibility",
+      "question": "Who is eligible for Access?",
+      "answer": "Eligibility depends on your functional ability to independently use fixed-route bus and train service for all or part of your trips. You may be eligible if you cannot independently get to or from a bus stop, board or exit a bus, understand which bus to take or when to exit, or navigate schedules due to a disability. Functional disabilities include cognitive, mental, psychiatric, visual, auditory, physical, or medical conditions. Being able to drive does not disqualify you.",
+      "spoken_answer": "Eligibility for Access is based on your functional ability to use buses and trains in Los Angeles County. It's not based solely on your disability, age, or medical diagnosis. If your disability prevents you from getting to a bus stop, boarding, understanding which bus to take, or navigating schedules, you may qualify. Would you like information on how to apply?"
+    },
+    {
+      "id": "eligibility-002",
+      "category": "eligibility",
+      "question": "How do I apply for Access?",
+      "answer": "Call Customer Service at 800-827-0829, Monday through Friday from 8 AM to 5 PM, or visit the website application at eligibility.accessla.org. The process has four steps: download the application packet, get an Access ID number (online or by phone), schedule an in-person transit evaluation at 626-532-1616, and receive a written decision within 21 days.",
+      "spoken_answer": "To apply, start by calling our Customer Service at 800-827-0829, Monday through Friday from 8 AM to 5 PM. You can also begin online at eligibility.accessla.org. The process involves getting an ID number, then scheduling an in-person evaluation. You'll receive a written decision within 21 days. Would you like me to transfer you to Customer Service to get started?"
+    },
+    {
+      "id": "eligibility-003",
+      "category": "eligibility",
+      "question": "How do I prepare for my eligibility evaluation?",
+      "answer": "Identify and note any barriers you experience when getting to bus stops, boarding, or interacting with schedules. Describe how your disability affects these activities. Bring a valid photo ID, medical documents or reports explaining your disability impact, and any mobility device you normally use. The evaluation takes about 45 minutes, but plan for up to 4 hours total. Free transportation to and from the evaluation center is available.",
+      "spoken_answer": "To prepare, think about what barriers you face when trying to use buses and trains. Bring a valid photo ID, any medical documents that explain how your disability affects your travel, and your mobility device if you use one. The evaluation itself takes about 45 minutes, but plan for up to 4 hours. Free transportation to the evaluation center is available if you need it."
+    },
+    {
+      "id": "eligibility-004",
+      "category": "eligibility",
+      "question": "What if I'm found not eligible?",
+      "answer": "You can request an appeal within 60 days by calling Customer Service at 800-827-0829. An appeals form is available in English and Spanish on the website. Alternative transportation options also exist, and Mobility Management staff can help you explore them.",
+      "spoken_answer": "If you're found not eligible, you have the right to appeal within 60 days. You can start that process by calling Customer Service at 800-827-0829. Our Mobility Management staff can also help you explore other transportation options. Would you like me to connect you?"
+    },
+    {
+      "id": "eligibility-005",
+      "category": "eligibility",
+      "question": "How do I renew my eligibility?",
+      "answer": "Renewal information is mailed to you 60 days before your eligibility expires. Make sure your address and phone number are current. If you haven't received your renewal notice, call Customer Service at 800-827-0829, Option 3 for Eligibility.",
+      "spoken_answer": "We mail renewal information 60 days before your eligibility expires. Make sure your address and phone number are up to date with us. If you haven't received your renewal notice, I can transfer you to Customer Service. They handle eligibility at Option 3."
+    },
+    {
+      "id": "eligibility-006",
+      "category": "eligibility",
+      "question": "Can I use the service while waiting for my card or renewal?",
+      "answer": "Yes. Contact Customer Service at 800-827-0829, Option 4, to request authorization to ride using a valid government-issued ID while waiting for your card. Accepted IDs include a Driver's License, Passport, Consulate ID, Metro TAP Card, Military ID, or School ID.",
+      "spoken_answer": "Yes, you can still ride while waiting for your card. Call Customer Service at 800-827-0829 and select Option 4. They can authorize you to ride using a government-issued ID like a driver's license or passport. Would you like me to transfer you?"
+    },
+    {
+      "id": "eligibility-007",
+      "category": "eligibility",
+      "question": "Can I apply with a temporary disability?",
+      "answer": "Yes. Call Customer Service at 800-827-0829, Monday through Friday from 8 AM to 5 PM, for information about applying with a temporary disability.",
+      "spoken_answer": "Yes, you can apply for Access with a temporary disability. I can transfer you to Customer Service for more information. They're available Monday through Friday, 8 AM to 5 PM."
+    },
+    {
+      "id": "booking-001",
+      "category": "booking",
+      "question": "How do I book a ride?",
+      "answer": "Call Reservations at 800-883-1295 and select your region. They're available from 6 AM to 10 PM, seven days a week. You can also book online through Rider360 at booking.accessla.org or through the Where's My Ride app. Trips should be booked 1 to 3 days in advance. Out-of-state callers dial 213-488-1748.",
+      "spoken_answer": "You can book a ride by calling Reservations at 800-883-1295. They're available from 6 AM to 10 PM, seven days a week. Just select your region when you call. You can also book online at accessla.org or through the Where's My Ride app. Trips should be booked 1 to 3 days in advance. Would you like me to transfer you to Reservations now?"
+    },
+    {
+      "id": "booking-002",
+      "category": "booking",
+      "question": "Can I book a same-day trip?",
+      "answer": "Same-day trips are not guaranteed but may be available based on capacity. We recommend booking 1 to 3 days in advance to ensure availability.",
+      "spoken_answer": "Same-day trips aren't guaranteed, but they may be available depending on capacity. We recommend booking 1 to 3 days ahead to make sure you get a ride. Would you like me to transfer you to Reservations to check availability?"
+    },
+    {
+      "id": "booking-003",
+      "category": "booking",
+      "question": "What information do I need to make a reservation?",
+      "answer": "You need your Access Rider ID Number, exact pickup and drop-off addresses, cross-streets or landmarks, mobility device details if applicable, whether you have a service animal, number of companions, desired pickup time, a phone number for call-outs, and your return trip time if you need one. Return trips must be specifically requested.",
+      "spoken_answer": "Have your Access Rider ID number ready, along with your exact pickup and drop-off addresses. They'll also ask about any mobility devices, service animals, companions, your preferred pickup time, and a phone number for notifications. If you need a return trip, make sure to request it specifically since it's not automatic."
+    },
+    {
+      "id": "booking-004",
+      "category": "booking",
+      "question": "How do I book online?",
+      "answer": "Set up a Rider360 account at accessla.org using your Rider ID number, eligibility expiration date, last name, and zip code. Then go to booking.accessla.org to book trips. Online booking is available for the Eastern, Southern, West/Central, and Antelope Valley regions. The Northern region can book via the Where's My Ride app only.",
+      "spoken_answer": "You can book online by setting up a Rider360 account at accessla.org. You'll need your Rider ID number, eligibility expiration date, last name, and zip code. Online booking works for the Eastern, Southern, West/Central, and Antelope Valley regions. If you're in the Northern region, use the Where's My Ride app. For help with online reservations, call 213-270-6185."
+    },
+    {
+      "id": "booking-005",
+      "category": "booking",
+      "question": "What is a standing order?",
+      "answer": "A standing order is a recurring reservation for trips you take on a regular schedule, like going to work, school, church, or dialysis. Instead of calling each time, Access automatically schedules your trips. You need a minimum 6-week commitment and should request 2 or more weeks in advance. Contact Reservations at 800-883-1295, Option 3 to set one up.",
+      "spoken_answer": "A standing order is for trips you take on a regular schedule, like going to work or dialysis. Instead of calling every time, your trips get automatically scheduled. You need to commit for at least 6 weeks. Call Reservations at 800-883-1295 and select Option 3 to set one up. Would you like me to transfer you?"
+    },
+    {
+      "id": "fares-001",
+      "category": "fares",
+      "question": "How much does a ride cost?",
+      "answer": "One-way fares are $2.75 for trips under 20 miles and $3.50 for trips 20 miles or more. Trips within Santa Clarita or the Antelope Valley are $2.00. Personal Care Attendants ride free. Guests pay the same fare as the rider. You can pay with exact cash, credit/debit card (VISA, MasterCard, Discover), or coupon books. Drivers cannot make change.",
+      "spoken_answer": "A one-way trip costs $2.75 for trips under 20 miles and $3.50 for trips 20 miles or more. If you're riding within Santa Clarita or the Antelope Valley, it's $2.00. Personal Care Attendants ride free, and guests pay the same fare as you. You can pay with exact cash, a credit or debit card, or coupon books. Just remember, drivers can't make change."
+    },
+    {
+      "id": "fares-002",
+      "category": "fares",
+      "question": "How do I buy coupon books?",
+      "answer": "Coupon books come in three types: Base Fare ($27.50 for 10 coupons at $2.75 each), Plus Zone ($7.50 for 10 coupons at $0.75 each for trips over 20 miles), and Flex ($20.00 for 10 coupons at $2.00 each for Santa Clarita/Antelope Valley). Order by mail with a check/money order (allow 10 days), online at accessla.org, or at select locations in person.",
+      "spoken_answer": "You can buy coupon books in three types. The Base Fare book is $27.50 for 10 coupons. There's also a Plus Zone book for longer trips and a Flex book for the Santa Clarita and Antelope Valley areas. You can order online at accessla.org, by mail with a check, or at select locations in person. Would you like more details on ordering?"
+    },
+    {
+      "id": "fares-003",
+      "category": "fares",
+      "question": "What payment methods are accepted?",
+      "answer": "Exact cash (drivers cannot make change), credit/debit cards (VISA, MasterCard, Discover) except in Santa Clarita, and coupon books. Coupons are non-refundable and Access is not responsible for lost or stolen coupons.",
+      "spoken_answer": "We accept exact cash, credit and debit cards including Visa, MasterCard, and Discover, and coupon books. Just note that drivers can't make change for cash, and credit cards aren't accepted in the Santa Clarita region."
+    },
+    {
+      "id": "pickup-001",
+      "category": "pickup",
+      "question": "When will my ride arrive?",
+      "answer": "Your vehicle may arrive within a 20-minute window around your scheduled pickup time. For example, if your pickup is scheduled for 10:00 AM, the vehicle may arrive between 9:40 AM and 10:20 AM. The driver will wait 5 minutes after arrival. Check your ride status by texting TRIP to 800-827-4588, using the Where's My Ride app, or calling the OMC at 800-827-0829 Option 2.",
+      "spoken_answer": "Your ride can arrive within a 20-minute window of your scheduled time. So if you're scheduled for 10 AM, the vehicle may come anytime between 9:40 and 10:20. The driver will wait 5 minutes at the curb. You can track your ride by texting the word TRIP to 800-827-4588, or using the Where's My Ride app. If your ride is late, call 800-827-0829 and press 2 for our Operations Center."
+    },
+    {
+      "id": "pickup-002",
+      "category": "pickup",
+      "question": "My ride is late. What should I do?",
+      "answer": "Call the Operations Monitoring Center (OMC) at 800-827-0829 and press Option 2. They are available 24/7 and can check on your vehicle, provide an ETA, or secure an alternate ride. You can also text TRIP to 800-827-4588 for live agent assistance.",
+      "spoken_answer": "I'm sorry to hear that. Let me connect you with our Operations Monitoring Center. They can check on your vehicle and get you an update right away. They're available 24 hours a day, 7 days a week."
+    },
+    {
+      "id": "pickup-003",
+      "category": "pickup",
+      "question": "How do I check on my ride status?",
+      "answer": "Three options: text the word TRIP to 800-827-4588 for live agent assistance, use the Where's My Ride app on your phone (available on iPhone and Android), or call Reservations at 800-883-1295, Option 4 (within 15 minutes of your scheduled pickup). The Where's My Ride app lets you track your vehicle in real time starting 15 minutes before your pickup.",
+      "spoken_answer": "You have three options. You can text the word TRIP to 800-827-4588 for a live agent. You can use the Where's My Ride app on your phone. Or you can call Reservations at 800-883-1295 and press 4. The app is the easiest way since it shows your vehicle's location in real time. Would you like help with any of these options?"
+    },
+    {
+      "id": "noshow-001",
+      "category": "no-show",
+      "question": "What is a no-show?",
+      "answer": "A no-show is recorded when you cancel less than 2 hours before your scheduled pickup time, or when the driver arrives within your 20-minute window, waits 5 minutes, and cannot find you. It is NOT a no-show if the driver arrives outside the 20-minute window, arrives or departs before your scheduled time, or doesn't wait the full 5 minutes.",
+      "spoken_answer": "A no-show happens in two ways: if you cancel less than 2 hours before your pickup, or if the driver arrives on time, waits 5 minutes, and can't find you. It's important to know that it's NOT a no-show if the driver comes outside your 20-minute window or doesn't wait the full 5 minutes."
+    },
+    {
+      "id": "noshow-002",
+      "category": "no-show",
+      "question": "What happens if I get too many no-shows?",
+      "answer": "You'll receive a written notice after your 2nd no-show. If you have 5 or more no-shows in a calendar month AND they exceed 10% of your total trips that month, you may face suspension: 10 days for the first offense, 30 days for subsequent offenses. The suspension record clears after 6 months without violations. You can appeal by contacting Customer Service.",
+      "spoken_answer": "After your 2nd no-show, you'll get a written notice. If you reach 5 or more in a calendar month and they're more than 10% of your total trips, you may face a temporary suspension. The first time is 10 days, and it goes to 30 days after that. You do have the right to appeal. The record clears after 6 months with no more no-shows."
+    },
+    {
+      "id": "cancel-001",
+      "category": "cancellation",
+      "question": "How do I cancel a trip?",
+      "answer": "Call Reservations at 800-883-1295 at least 2 hours before your scheduled pickup time. If you cancel less than 2 hours before your pickup, it will be recorded as a no-show.",
+      "spoken_answer": "Call Reservations at 800-883-1295 at least 2 hours before your scheduled pickup. Canceling with less than 2 hours' notice counts as a no-show, so try to cancel as early as possible. Would you like me to transfer you to Reservations?"
+    },
+    {
+      "id": "wheelchair-001",
+      "category": "mobility-devices",
+      "question": "Can I bring my wheelchair or scooter?",
+      "answer": "Yes. Your mobility device must not exceed 30 inches wide by 48 inches long, and the combined weight of you and your device must not exceed 600 pounds. WC19-compliant wheelchairs are recommended. If you use a mobility device, you'll automatically receive an accessible vehicle. If you change devices, notify Customer Service to ensure the right vehicle is assigned.",
+      "spoken_answer": "Yes, absolutely. Your device needs to fit within 30 inches wide by 48 inches long, and the combined weight of you and your device can't exceed 600 pounds. You'll automatically get an accessible vehicle when you book. If you've recently changed devices, let Customer Service know so they can assign the right vehicle."
+    },
+    {
+      "id": "wheelchair-002",
+      "category": "mobility-devices",
+      "question": "My wheelchair doesn't fit the size requirements. What can I do?",
+      "answer": "Contact the Reasonable Modification Coordinator, Torrance Johnson, at 213-270-6159 or email RMC@accessla.org to discuss options. You can request a reasonable modification to Access policies to accommodate your specific needs.",
+      "spoken_answer": "I'd recommend contacting our Reasonable Modification Coordinator, Torrance Johnson, at 213-270-6159. He can work with you on accommodating your specific needs. You can also email RMC@accessla.org. Would you like me to transfer you?"
+    },
+    {
+      "id": "companion-001",
+      "category": "companions",
+      "question": "Can someone ride with me?",
+      "answer": "Yes. A Personal Care Attendant (PCA) rides free but must be identified when making your reservation. You may bring one guest who pays the same fare as you. Additional guests are space-available only. Children under 6 ride free on a parent's lap. Children 6 and older need their own seat and pay the fare. To add a PCA to your card, call 800-827-0829.",
+      "spoken_answer": "Yes! A Personal Care Attendant rides free. Just let them know when you book your trip. You can also bring one guest who pays the same fare as you. Children under 6 ride free on your lap, and children 6 and older need their own seat and pay the fare. To add a PCA to your card, call 800-827-0829."
+    },
+    {
+      "id": "companion-002",
+      "category": "companions",
+      "question": "How do I find a personal care attendant?",
+      "answer": "The Personal Assistance Services Council (PASC) at 877-565-4477 can help you locate personal care aides. They provide referrals for qualified attendants who can accompany you on Access trips.",
+      "spoken_answer": "The Personal Assistance Services Council, or PASC, can help. Their number is 877-565-4477. They can connect you with qualified attendants. A PCA rides free on Access, so there's no extra cost for their trip."
+    },
+    {
+      "id": "complaint-001",
+      "category": "complaints",
+      "question": "How do I file a complaint?",
+      "answer": "Call Customer Service at 800-827-0829 (Monday through Friday, 8 AM to 5 PM), email cserv@accessla.org, send a letter to PO Box 5728, El Monte, CA 91734, or use the online contact form at accessla.org. You'll need your Rider ID, details of the incident including date, time, and location, and any names of people involved. Access responds within 14 calendar days.",
+      "spoken_answer": "I'm sorry you're having an issue. You can file a complaint through Customer Service. I can transfer you there now, or you can email cserv@accessla.org. You'll need your Rider ID and details about what happened, including the date, time, and location. Access will respond within 14 calendar days. Would you like me to transfer you?"
+    },
+    {
+      "id": "complaint-002",
+      "category": "complaints",
+      "question": "Can I file a discrimination complaint?",
+      "answer": "Yes. Contact the ADA Coordinator at 213-270-6000 or email adacoordinator@accessla.org. Complaints must be filed within 180 days in writing. Access acknowledges receipt within 10 days, investigates within 60 days, and provides a final decision within 90 days. You may also file with the Federal Transit Administration at 888-446-4511.",
+      "spoken_answer": "Yes. For discrimination complaints, contact our ADA Coordinator at 213-270-6000 or email adacoordinator@accessla.org. You need to file within 180 days. If you're not satisfied with the response, you can escalate to the Federal Transit Administration at 888-446-4511. Would you like me to connect you with our ADA Coordinator?"
+    },
+    {
+      "id": "program-atw-001",
+      "category": "programs",
+      "question": "What is Access to Work?",
+      "answer": "Access to Work is a standing order service for riders commuting to employment or job training. Trips are scheduled based on your work start time so you arrive on time. If your hours change, you can modify trip times without reapplying. You need a consistent weekly schedule to qualify. Contact 213-270-6000 for more information.",
+      "spoken_answer": "Access to Work is for riders who commute to a job or job training program on a regular schedule. Your trips get scheduled around your work start time so you arrive on time, and if your hours change, you can update without reapplying. You do need a consistent weekly schedule. Would you like more information?"
+    },
+    {
+      "id": "program-btc-001",
+      "category": "programs",
+      "question": "What is Beyond the Curb?",
+      "answer": "Beyond the Curb provides extra assistance where the driver accompanies you up to 60 feet from the vehicle to your destination. It's available as a reasonable modification for riders who can't navigate from the curb on their own. Request it when you make your reservation, or apply through the Reasonable Modification form by calling 800-827-0829, Option 6.",
+      "spoken_answer": "Beyond the Curb gives you extra help getting from the vehicle to your destination, up to 60 feet away. The driver walks with you. It's for riders who have difficulty getting from the curb on their own. You can request it when you book your trip, or apply through our Reasonable Modification process by calling 800-827-0829 and pressing 6."
+    },
+    {
+      "id": "program-ff-001",
+      "category": "programs",
+      "question": "What is the Free Fare Program?",
+      "answer": "All certified Access riders can ride most fixed-route buses and trains in LA County for free using their green Access Rider ID Card as a TAP card. No registration needed. It covers 24 transit operators including Metro Bus, Metro Rail, Long Beach Transit, Big Blue Bus, and more. It does not affect your paratransit eligibility.",
+      "spoken_answer": "Great news for Access riders. You can ride most buses and trains in LA County for free using your green Access ID card. It works on Metro buses and rail, Long Beach Transit, Big Blue Bus, and 24 systems total. No sign-up needed. Just tap your card when you board. And using it doesn't affect your Access eligibility."
+    },
+    {
+      "id": "program-pwd-001",
+      "category": "programs",
+      "question": "What is the Parents with Disabilities Program?",
+      "answer": "This program helps Access-certified parents or guardians take children age 16 and under to and from school and school activities. Trips are scheduled around school times so your child arrives on time. The fare is $2.00 one way. You can get linked trips to continue to another destination after drop-off. Contact Eric Haack at 213-270-6000.",
+      "spoken_answer": "The Parents with Disabilities Program helps you get your kids to school on time. It's for Access-certified parents of children 16 and under. The fare is just $2 one way, and trips are scheduled around school times. You can also get linked trips to continue to another destination after dropping off your child. Would you like more details?"
+    },
+    {
+      "id": "program-tt-001",
+      "category": "programs",
+      "question": "What is Travel Training?",
+      "answer": "Travel Training is free one-on-one training that teaches you how to safely use fixed-route public transit like buses and trains. You learn schedule reading, fare payment, boarding, transfers, and safety skills. It's provided by Mobility Management Partners at 888-667-7003. Participation doesn't affect your Access eligibility.",
+      "spoken_answer": "Travel Training is a free program that teaches you how to use regular buses and trains independently. You get one-on-one training covering everything from reading schedules to boarding and making transfers. It's completely free and doesn't affect your Access eligibility. Call 888-667-7003 to learn more. Would you like that number again?"
+    },
+    {
+      "id": "program-rm-001",
+      "category": "programs",
+      "question": "What is a reasonable modification?",
+      "answer": "A reasonable modification is a change to Access policies or practices to accommodate your disability so you can use the paratransit system. For example, Beyond the Curb service. To request one, call 800-827-0829 press #6, or contact the Reasonable Modification Coordinator Torrance Johnson at 213-270-6159 or RMC@accessla.org.",
+      "spoken_answer": "A reasonable modification is when we adjust our standard policies to better accommodate your specific disability needs. For example, our Beyond the Curb service is one type. You can request a modification by calling 800-827-0829 and pressing 6, or contact our coordinator Torrance Johnson directly at 213-270-6159. Would you like me to connect you?"
+    },
+    {
+      "id": "visitor-001",
+      "category": "visitor",
+      "question": "I'm visiting LA. Can I use Access?",
+      "answer": "Yes. If you're ADA paratransit eligible in your home area, you can use Access for up to 21 days per calendar year. Provide proof of eligibility from your local paratransit provider, or proof of address outside LA County with disability documentation. Submit by email to cserv@accessla.org, fax to 213-270-6057, or mail. Processing is within one business day. Call 800-827-0829, Option 6 to book.",
+      "spoken_answer": "Yes! If you have ADA paratransit eligibility in your home area, you can use Access for up to 21 days per year. Just send us proof of your eligibility from your home agency. You can email it to cserv@accessla.org or fax it to 213-270-6057. Processing takes about one business day. Then call 800-827-0829 and press 6 to make reservations."
+    },
+    {
+      "id": "visitor-002",
+      "category": "visitor",
+      "question": "How do I travel to a neighboring county?",
+      "answer": "Call 800-827-0829 at least two days in advance and request that Access send your eligibility details to the other county's paratransit provider. Most paratransit providers allow up to 21 days per calendar year as a visitor.",
+      "spoken_answer": "Call us at 800-827-0829 at least two days before your trip. We can send your eligibility information to the other county's paratransit service. Most providers allow up to 21 visiting days per year."
+    },
+    {
+      "id": "service-001",
+      "category": "service-area",
+      "question": "What areas does Access serve?",
+      "answer": "Access serves within 3/4 mile of fixed-route bus lines and Metro Rail stations throughout Los Angeles County, extending into portions of San Bernardino, Orange, and Ventura counties. The service area spans over 1,950 square miles from Lancaster to Long Beach and Malibu to Montclair. It does not cover commuter rail or commuter bus routes.",
+      "spoken_answer": "Access covers most of Los Angeles County, within three-quarters of a mile of bus routes and Metro Rail stations. That's over 1,950 square miles, from Lancaster down to Long Beach and from Malibu to Montclair. We also extend into parts of San Bernardino, Orange, and Ventura counties where LA County bus lines run."
+    },
+    {
+      "id": "service-002",
+      "category": "service-area",
+      "question": "What are the service regions?",
+      "answer": "Access has 6 service regions: Antelope Valley (served by First Transit), Northern (MV Transportation), Eastern (San Gabriel Transit), Southern (Global Paratransit), West/Central (California Transit), and Santa Clarita (City of Santa Clarita). When you call Reservations, you select your region.",
+      "spoken_answer": "We have six service regions: Antelope Valley, Northern, Eastern, Southern, West/Central, and Santa Clarita. Each is operated by a different transportation company. When you call Reservations at 800-883-1295, you'll select your region to get connected to the right team."
+    },
+    {
+      "id": "app-001",
+      "category": "technology",
+      "question": "Is there an app I can use?",
+      "answer": "Yes, the Where's My Ride app is available for iPhone (App Store) and Android (Google Play). It lets you track your vehicle in real time starting 15 minutes before your pickup. You can also book trips online through Rider360 at booking.accessla.org. For help, call the WMR hotline at 213-270-6099 or online reservations support at 213-270-6185.",
+      "spoken_answer": "Yes! The Where's My Ride app is available for iPhone and Android. You can track your vehicle in real time starting 15 minutes before pickup. You can also book trips online through Rider360 at accessla.org. If you need help with the app, call 213-270-6099."
+    },
+    {
+      "id": "app-002",
+      "category": "technology",
+      "question": "How do I use the Where's My Ride app?",
+      "answer": "Download the Access Services app from the Apple App Store or Google Play Store. Log in with your Rider360 account credentials. You can check vehicle location 15 minutes before your scheduled pickup, manage your trip list, and communicate with your driver. You can also text TRIP to 800-827-4588 if you don't have the app.",
+      "spoken_answer": "Download the Access Services app from the App Store or Google Play. Log in with your Rider360 account. You'll be able to see your vehicle on a map starting 15 minutes before pickup. If you don't have a smartphone, you can text the word TRIP to 800-827-4588 for trip updates."
+    },
+    {
+      "id": "meeting-001",
+      "category": "meetings",
+      "question": "When are the public meetings?",
+      "answer": "Board of Directors meets the 4th Monday of each month from 12 PM to 3 PM. Community Advisory Committee meets the 2nd Tuesday of each month from 1 PM to 3:15 PM. Both are hybrid (in-person and virtual via Zoom). TPAC meets the 2nd Thursday every other month from 9:30 to 10:30 AM. All meetings are at 3449 Santa Anita Ave, El Monte. Call 213-270-6110 for updates.",
+      "spoken_answer": "The Board of Directors meets on the 4th Monday of each month from noon to 3 PM. The Community Advisory Committee meets on the 2nd Tuesday from 1 to 3:15 PM. Both are open to the public and available in person or via Zoom. Call 213-270-6110 for the latest schedule and Zoom links."
+    },
+    {
+      "id": "service-animal-001",
+      "category": "service-animals",
+      "question": "Can I bring my service animal?",
+      "answer": "Yes, service animals ride free and are not required to be in a carrier. They must remain on the vehicle floor during the trip. Non-service pets must be in a secured carrier. The driver cannot assist with loading or unloading pets.",
+      "spoken_answer": "Yes, service animals are always welcome and ride free. They don't need to be in a carrier, but they should stay on the floor during the trip. If you have a regular pet, they need to be in a secured carrier."
+    },
+    {
+      "id": "language-001",
+      "category": "language",
+      "question": "Do you offer services in other languages?",
+      "answer": "Yes. When calling Reservations or Customer Service, let the agent know which language you speak and they'll connect you with a translator who can support you throughout the call. The eligibility evaluation is offered in English and Spanish, with sign language interpretation available upon request.",
+      "spoken_answer": "Yes, we do. When you call, just let the agent know which language you prefer and they'll connect you with a translator. Our eligibility evaluations are offered in English and Spanish, and sign language interpretation is available if you request it."
+    },
+    {
+      "id": "emergency-001",
+      "category": "emergency",
+      "question": "What should I do in a medical emergency?",
+      "answer": "Call 911 immediately. The Operations Monitoring Center is not equipped to handle medical emergencies. For mandatory evacuations, also call 911. The OMC at 800-827-0829 Option 2 can help with non-emergency trip issues 24/7.",
+      "spoken_answer": "If you're having a medical emergency, please call 911 right away. Our Operations Center is not equipped for medical emergencies. For non-emergency trip issues, you can reach our Operations Center 24/7 at 800-827-0829, Option 2."
+    },
+    {
+      "id": "lost-found-001",
+      "category": "lost-and-found",
+      "question": "I left something in the vehicle. How do I get it back?",
+      "answer": "Call Reservations at 800-883-1295, select your region, then press Option 2 for Lost and Found. They're available 8 AM to 5 PM, 7 days a week. Items are held for 60 days.",
+      "spoken_answer": "Call 800-883-1295, select your region, then press 2 for Lost and Found. They're available from 8 AM to 5 PM, seven days a week. Items are kept for 60 days. Would you like me to transfer you to Reservations?"
+    },
+    {
+      "id": "callout-001",
+      "category": "pickup",
+      "question": "Why didn't I get a call-out notification?",
+      "answer": "Call-outs may not arrive if your phone number on file is incorrect, your cellular reception is poor, or your phone system requires pressing an additional number to accept the call. Contact Customer Service at 800-827-0829, Monday through Friday 8 AM to 5 PM, to verify your phone number. Cell phone numbers are recommended for the most reliable notifications.",
+      "spoken_answer": "Call-out notifications can sometimes fail if the phone number we have isn't current, if you have poor reception, or if your voicemail picks up first. I'd recommend verifying the number on your account. Cell phone numbers work best. Would you like me to transfer you to Customer Service to update your information?"
+    },
+    {
+      "id": "driver-help-001",
+      "category": "driver-assistance",
+      "question": "What can the driver help me with?",
+      "answer": "Drivers assist with entering and exiting the vehicle, loading items, and limited help beyond the curb. They cannot enter buildings, provide medical care, or supervise riders. If you need help with memory, personal safety decisions, or personal/health needs, bring a Personal Care Attendant (rides free). If you need help beyond the curb, request Beyond the Curb service.",
+      "spoken_answer": "Drivers help you get in and out of the vehicle and can assist with loading items. For help beyond the curb, up to 60 feet from the vehicle, you can request our Beyond the Curb service. If you need more extensive help, like with personal care or safety decisions, we recommend bringing a Personal Care Attendant. They ride free."
+    },
+    {
+      "id": "travel-time-001",
+      "category": "travel-time",
+      "question": "How long will my trip take?",
+      "answer": "Because Access is a shared-ride service, routes may include picking up and dropping off other passengers. Estimated travel times: 1-10 miles takes 30 minutes to 1.5 hours, 11-20 miles takes 1-2.5 hours, 21-30 miles takes 1.5-3 hours, and over 30 miles takes 2-3.5+ hours. Per ADA law, trips may take as long as a comparable bus/train trip.",
+      "spoken_answer": "Since Access is a shared-ride service, your route may include other pickups and drop-offs. For a trip under 10 miles, expect 30 minutes to an hour and a half. Trips of 11 to 20 miles typically take 1 to 2 and a half hours. Longer trips can take up to 3 and a half hours or more. Plan accordingly, especially for appointments."
+    },
+    {
+      "id": "dbe-001",
+      "category": "business",
+      "question": "How do I become a vendor or contractor for Access?",
+      "answer": "Register as a vendor through the Doing Business With Us section at accessla.org. For procurement inquiries, contact purchasing@accessla.org or call 213-270-6000. Access uses IFBs, RFPs, RFIQs, and RFQs for solicitations. For the Disadvantaged Business Enterprise (DBE) program, apply through the California Unified Certification Program at californiaucp.dbesystem.com.",
+      "spoken_answer": "You can register as a vendor on our website at accessla.org in the Doing Business With Us section. For specific procurement questions, email purchasing@accessla.org or call 213-270-6000. If you're interested in the DBE program, you can apply through the California Unified Certification Program."
+    },
+    {
+      "id": "employment-001",
+      "category": "employment",
+      "question": "How do I work for Access?",
+      "answer": "Access Services staff positions are listed at governmentjobs.com/careers/accessla. For contractor employment (drivers, dispatchers, customer service), contact the contractor in your region directly: First Transit (Antelope Valley, 661-208-0410), MV Transportation (Northern, 818-647-7960), San Gabriel Transit (Eastern, 626-258-1310), Global Paratransit (Southern, 310-715-7550), California Transit (West/Central, 323-234-8750), City of Santa Clarita (661-295-6328).",
+      "spoken_answer": "For Access Services staff positions, apply online at governmentjobs.com/careers/accessla. If you're interested in driving or dispatch roles, those are through our regional contractors. Which area are you in? I can give you the right contact."
+    },
+    {
+      "id": "training-001",
+      "category": "professional-development",
+      "question": "What professional development programs does Access offer?",
+      "answer": "Access Services' CTSA Extension provides subsidized technical training for LA County transit professionals through the Learning and Development Program. Over 500 professionals have participated. They also offer the Transit and Paratransit Management Certificate Program in partnership with University of the Pacific, requiring 7 of 8 courses. The Joe King Memorial Scholarship covers 100% of enrollment fees. Contact the University of the Pacific at 209-946-2956 or westgate@pacific.edu.",
+      "spoken_answer": "We offer a Learning and Development Program for transit professionals, subsidized by Access Services. There's also a Management Certificate Program through the University of the Pacific. The Joe King Memorial Scholarship can cover the enrollment fees. For details, contact the University of the Pacific at 209-946-2956."
+    },
+    {
+      "id": "region-001",
+      "category": "regions",
+      "question": "What region am I in?",
+      "answer": "Access has six service regions: Antelope Valley (Lancaster, Palmdale area), Santa Clarita (Santa Clarita, Valencia, Newhall), Northern (San Fernando Valley, Burbank, Glendale, Pasadena), Eastern (El Monte, West Covina, Alhambra, Pomona), West/Central (Downtown LA, Hollywood, Santa Monica, Inglewood, South LA), and Southern (Gardena, Long Beach, Torrance, Compton, Downey, Whittier). When you call Reservations at 800-883-1295, the system will ask you to select your region.",
+      "spoken_answer": "We have six regions. Can you tell me what city or area you're in? I can help you figure out your region. Or when you call Reservations at 800-883-1295, the system will ask you to select your region."
+    },
+    {
+      "id": "other-transport-001",
+      "category": "transit-options",
+      "question": "What other transportation options are there besides Access?",
+      "answer": "LA County has many accessible transportation options. You can ride most fixed-route buses and trains for free with your Access card through the Free Fare Program. There are also local dial-a-ride services, Metro Micro on-demand rideshare, and over 200 public and private accessible providers. For help finding the right option, call our Mobility Management referral line at 800-431-7882, Monday through Friday, 8 AM to 5 PM.",
+      "spoken_answer": "There are many options beyond Access. Your green Access ID card lets you ride most buses and trains in LA County for free through the Free Fare Program. There's also Metro Micro, local dial-a-ride services, and more. Our Mobility Management team can help match you with the best option. Their number is 800-431-7882, Monday through Friday, 8 AM to 5 PM."
+    },
+    {
+      "id": "neighboring-county-001",
+      "category": "neighboring-counties",
+      "question": "Can I travel to Orange County or other neighboring counties?",
+      "answer": "Yes. Call Access at 800-827-0829 at least two days in advance and request that we send your eligibility details to the neighboring county's paratransit service. You can use their service as a visitor for up to 21 days per calendar year. Neighboring services include OCTA Access (Orange County, 714-560-5956), Omnitrans Access (San Bernardino, 800-966-6428), Gold Coast Transit Access (Ventura, 888-667-7001), and RTA Dial-A-Ride (Riverside, 800-795-7887).",
+      "spoken_answer": "Yes! Call us at 800-827-0829 at least two days before your trip. We'll send your eligibility information to the other county's paratransit service. You can use their service for up to 21 days per year. Which county are you looking to travel to? I can give you their contact number."
+    },
+    {
+      "id": "stand-001",
+      "category": "stands",
+      "question": "What are Access stands?",
+      "answer": "Access has 47 designated pick-up and drop-off stands at popular locations like hospitals, colleges, airports, and entertainment venues. They work like bus stops. Some key locations include LAX, Union Station, Cedars-Sinai, VA Hospitals, Cal State universities, and venues like SoFi Stadium and Universal Studios. You can specify a stand as your pick-up or drop-off point when booking. Visit accessla.org for the full searchable directory.",
+      "spoken_answer": "Access stands are designated pick-up and drop-off points at popular locations like hospitals, airports, colleges, and entertainment venues. We have 47 locations including LAX, Union Station, Cedars-Sinai, and Cal State campuses. You can use them when booking your trip. Would you like to know if there's a stand near your destination?"
+    },
+    {
+      "id": "holiday-001",
+      "category": "holidays",
+      "question": "Is Access available on holidays?",
+      "answer": "Service availability varies by region on holidays. Access observes New Year's Day, Presidents' Day, Memorial Day, Independence Day, Labor Day, Veterans' Day, Thanksgiving, the day after Thanksgiving, and Christmas. Standing orders are automatically cancelled on holidays. Regular service may still be available in most regions. Santa Clarita runs Sunday schedules on some holidays and has no service on Thanksgiving and Christmas. Call Reservations at 800-883-1295 to check holiday service in your area.",
+      "spoken_answer": "Service varies by region on holidays. Most regions still offer service, but standing orders are automatically cancelled. Santa Clarita and the Antelope Valley have more limited holiday schedules. Call Reservations at 800-883-1295 to check availability for your specific region and date."
+    },
+    {
+      "id": "payment-001",
+      "category": "payment",
+      "question": "Can I pay with a credit card?",
+      "answer": "Yes, most regions accept VISA, MasterCard, and Discover cards. The one exception is the Santa Clarita region, which does not accept credit or debit cards. In Santa Clarita, you must pay with exact cash or coupon books. Drivers cannot make change anywhere, so always have exact fare ready.",
+      "spoken_answer": "Yes, most regions accept Visa, MasterCard, and Discover. The one exception is Santa Clarita, where you need exact cash or coupons. And just a reminder, drivers can't make change anywhere, so have your exact fare ready."
+    },
+    {
+      "id": "oxygen-001",
+      "category": "medical",
+      "question": "Can I bring oxygen or medical equipment?",
+      "answer": "Yes, you can travel with oxygen and medical equipment. It must be secured and remain under your control during the trip. Plan ahead, as trip timing may not accommodate mid-trip medication needs. Travel time on Access is comparable to fixed-route bus service. If you need medical care during travel, bring a Personal Care Attendant.",
+      "spoken_answer": "Yes, you can bring oxygen and medical equipment. Just make sure it stays secured and under your control during the trip. If you need medical attention during travel, we recommend bringing a Personal Care Attendant. They ride free."
+    },
+    {
+      "id": "eating-001",
+      "category": "rules",
+      "question": "Can I eat or drink on the vehicle?",
+      "answer": "Eating and drinking are not allowed on Access vehicles unless it is medically necessary. If you have a medical condition that requires eating or drinking during your trip, that is permitted.",
+      "spoken_answer": "Eating and drinking aren't generally allowed on the vehicle. The exception is if it's medically necessary. If you have a medical condition that requires it, that's permitted."
+    },
+    {
+      "id": "smoking-001",
+      "category": "rules",
+      "question": "Is smoking or vaping allowed?",
+      "answer": "No. Smoking and vaping are prohibited on all Access vehicles.",
+      "spoken_answer": "No, smoking and vaping are not allowed on any Access vehicles."
+    },
+    {
+      "id": "camera-001",
+      "category": "safety",
+      "question": "Are there cameras on the vehicles?",
+      "answer": "Yes. All Access vehicles are equipped with video and audio recording cameras for safety purposes. All occupants are subject to recording while on the vehicle.",
+      "spoken_answer": "Yes, all vehicles have cameras for safety. Both video and audio are recorded during your trip."
+    },
+    {
+      "id": "address-change-001",
+      "category": "account",
+      "question": "How do I update my address or phone number?",
+      "answer": "Call Customer Service at 800-827-0829, Monday through Friday, 8 AM to 5 PM. Keeping your information current is important so you receive renewal notices and call-out notifications for your trips.",
+      "spoken_answer": "Call Customer Service at 800-827-0829 to update your information. It's important to keep your address and phone number current so you get renewal notices and ride notifications. Would you like me to transfer you?"
+    },
+    {
+      "id": "return-trip-001",
+      "category": "booking",
+      "question": "Why wasn't my return trip scheduled?",
+      "answer": "Return trips must be specifically requested when you make your reservation. They are not automatically scheduled. When booking, always tell the reservationist you need a return trip and provide the desired pickup time for your return.",
+      "spoken_answer": "Return trips are not automatic. You need to specifically request your return trip when you make your reservation. Make sure to tell the reservationist you need a return trip and give them your preferred pickup time. Would you like me to transfer you to Reservations to book a return trip?"
+    },
+    {
+      "id": "uber-lyft-001",
+      "category": "transit-options",
+      "question": "Does Access work with Uber or Lyft?",
+      "answer": "Access is an ADA paratransit service and does not partner with Uber or Lyft. However, if your scheduled Access vehicle is significantly delayed or misses your trip, the Operations Monitoring Center may arrange an alternate transportation provider, which could include a taxi or other backup service. For real-time help, call the OMC at 800-827-0829, Option 2.",
+      "spoken_answer": "Access doesn't partner with Uber or Lyft directly. But if your ride is significantly delayed, our Operations Center can arrange backup transportation for you, which might include a taxi. If you're waiting on a ride right now, call 800-827-0829 and press 2 for the Operations Center."
+    },
+    {
+      "id": "dialysis-001",
+      "category": "booking",
+      "question": "How do I set up rides for dialysis?",
+      "answer": "Dialysis is a great candidate for a standing order since it's a recurring trip. Contact Reservations at 800-883-1295 and select Option 3 after choosing your region. You'll need a minimum 6-week commitment. Your trips will be automatically scheduled for the same days and times each week. Different pickup times are allowed on different days.",
+      "spoken_answer": "Dialysis trips are perfect for a standing order since they're regular. Call Reservations at 800-883-1295 and select your region, then press 3 for standing orders. Your trips will be automatically scheduled each week. Would you like me to transfer you?"
+    }
+  ]
+}
