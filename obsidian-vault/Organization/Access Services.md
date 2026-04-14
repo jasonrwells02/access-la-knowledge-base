@@ -69,7 +69,7 @@ Within 3/4 mile of fixed-route bus lines and METRO Rail stations in Los Angeles 
 - [[Northern Region]]
 - [[Eastern Region]]
 - [[Southern Region]]
-- [[West/Central Region]]
+- [[West-Central Region]]
 - [[Santa Clarita]]
 
 ## Programs

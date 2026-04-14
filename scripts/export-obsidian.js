@@ -26,16 +26,18 @@ function sanitize(name) {
   return name.replace(/[\/\\:*?"<>|]/g, '-').replace(/\s+/g, ' ').trim();
 }
 
+// Use this for wikilinks so they always match the sanitized filename
+function wl(name) {
+  return `[[${sanitize(name)}]]`;
+}
+
 function writeNote(subdir, filename, content) {
   const dir = path.join(vaultDir, subdir);
   mkdirp(dir);
   fs.writeFileSync(path.join(dir, `${sanitize(filename)}.md`), content);
 }
 
-// Clean and recreate vault
-if (fs.existsSync(vaultDir)) {
-  fs.rmSync(vaultDir, { recursive: true });
-}
+// Create vault dir (overwrites existing files in place)
 mkdirp(vaultDir);
 
 // Load all data
@@ -66,13 +68,13 @@ tags: [home, index]
 - [[Access Services]]
 
 ## Contact Directory
-${contacts.contacts.filter(c => !c.external).map(c => `- [[${c.name}]]`).join('\n')}
+${contacts.contacts.filter(c => !c.external).map(c => `- ${wl(c.name)}`).join('\n')}
 
 ## Service Regions
-${regions.regions.map(r => `- [[${r.name}]]`).join('\n')}
+${regions.regions.map(r => `- ${wl(r.name)}`).join('\n')}
 
 ## Programs
-${programs.programs.map(p => `- [[${p.name}]]`).join('\n')}
+${programs.programs.map(p => `- ${wl(p.name)}`).join('\n')}
 
 ## Policies
 - [[Fares]]
@@ -99,7 +101,7 @@ ${programs.programs.map(p => `- [[${p.name}]]`).join('\n')}
 - [[Free Fare Participating Operators]]
 
 ## FAQs by Category
-${[...new Set(faqs.faqs.map(f => f.category))].map(c => `- [[FAQs - ${c.charAt(0).toUpperCase() + c.slice(1).replace(/-/g, ' ')}]]`).join('\n')}
+${[...new Set(faqs.faqs.map(f => f.category))].map(c => `- ${wl('FAQs - ' + c.charAt(0).toUpperCase() + c.slice(1).replace(/-/g, ' '))}`).join('\n')}
 `);
 
 // ============================================================
@@ -162,13 +164,13 @@ ${org.regulatory_compliance.map(r => `- ${r}`).join('\n')}
 - [[Board of Directors]] (${org.governance.board_size} members)
 
 ## Service Regions
-${regions.regions.map(r => `- [[${r.name}]]`).join('\n')}
+${regions.regions.map(r => `- ${wl(r.name)}`).join('\n')}
 
 ## Programs
-${programs.programs.map(p => `- [[${p.name}]]`).join('\n')}
+${programs.programs.map(p => `- ${wl(p.name)}`).join('\n')}
 
 ## Key Contacts
-${contacts.contacts.filter(c => !c.external).slice(0, 8).map(c => `- [[${c.name}]]`).join('\n')}
+${contacts.contacts.filter(c => !c.external).slice(0, 8).map(c => `- ${wl(c.name)}`).join('\n')}
 `);
 
 // ============================================================
@@ -339,7 +341,7 @@ ${policies.fares.coupon_books.purchase_options.map(o => `- **${o.method}:** ${o.
 - [[Booking and Reservations]]
 - [[Customer Service]]
 - [[Free Fare Program]]
-${regions.regions.map(r => `- [[${r.name}]]`).join('\n')}
+${regions.regions.map(r => `- ${wl(r.name)}`).join('\n')}
 `);
 
 writeNote('Policies', 'Booking and Reservations', `---
@@ -597,6 +599,35 @@ ${policies.complaints.rider360_tracking}
 - [[ADA Coordinator]]
 - [[Code of Conduct]]
 - [[Title VI]]
+`);
+
+writeNote('Policies', 'Title VI', `---
+tags: [policy, title-vi, civil-rights, discrimination]
+type: policy
+---
+# Title VI
+
+Access Services complies with Title VI of the Civil Rights Act of 1964, providing services without regard to race, color, or national origin.
+
+## Filing a Complaint
+- **Deadline:** ${policies.title_vi.filing_deadline}
+- **Format:** ${policies.title_vi.format}
+
+## Processing Timeline
+| Step | Timeframe |
+|---|---|
+| Acknowledgment | ${policies.title_vi.timeline.acknowledgment} |
+| Investigation | ${policies.title_vi.timeline.investigation} |
+| Final Decision | ${policies.title_vi.timeline.final_decision} |
+
+## Appeal
+${policies.title_vi.appeal}
+
+## Related
+- [[Complaints Process]]
+- [[ADA Coordinator]]
+- [[Access Services]]
+- [[Federal Transit Administration Civil Rights]]
 `);
 
 writeNote('Policies', 'Eligibility Process', `---

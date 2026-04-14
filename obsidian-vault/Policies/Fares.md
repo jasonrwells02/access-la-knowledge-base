@@ -46,5 +46,5 @@ type: policy
 - [[Northern Region]]
 - [[Eastern Region]]
 - [[Southern Region]]
-- [[West/Central Region]]
+- [[West-Central Region]]
 - [[Santa Clarita]]
